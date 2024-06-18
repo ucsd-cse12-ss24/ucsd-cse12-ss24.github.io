@@ -1,13 +1,15 @@
 ---
 layout: with-sidebar
-title: "Syllabus – UCSD CSE12 Fall 23"
+title: "Syllabus – UCSD CSE12 Summer 24"
 doodle: "/doodle.png"
 ---
 
-# UCSD CSE 12 Fall 2023
+# UCSD CSE 12 Summer 2024
 ## Basic Data Structures and Object-Oriented Design
 
-_Greg Miranda_
+_Ruanqianqian (Lisa) Huang_
+
+**TODO: update syllabus*
 
 This course focuses on two main topics: The basics of organizing data for
 efficient computation, and the design of programs that use collections,

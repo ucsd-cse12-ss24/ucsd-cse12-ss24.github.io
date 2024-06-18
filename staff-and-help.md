@@ -2,23 +2,23 @@
 layout: with-sidebar
 title: "UCSD CSE12 – Basic Data Structures and Object-Oriented Design"
 ---
-# UCSD CSE 12 Fall 2023
+# UCSD CSE 12 Summer 2024
 ## Asking Questions and Getting Help
 
-There are 14 staff members (instructor, TAs, and tutors) to help with your
+There are 4 staff members (instructor, TAs, and tutors) to help with your
 learning, and a few different ways to get in touch and ask for help.
 
 Quick links:
 
 - [Course FAQs (includes waitlist FAQs)](#faq)
-- Piazza Message Board: [https://piazza.com/ucsd/fall2023/cse12_fa23_a00/home](https://piazza.com/ucsd/fall2023/cse12_fa23_a00/home){:target="_blank"}
+- Piazza Message Board: [https://piazza.com/ucsd/summer2024/cse12](https://piazza.com/ucsd/summer2024/cse12){:target="_blank"}
 - Lab queue (autograder) for in person help: [https://autograder.ucsd.edu](https://autograder.ucsd.edu){:target="_blank"}
-- Tutoring Procedurs: [https://docs.google.com/document/d/16L0N2ASrPRID6di404vrbs3I_xkavs_7UG0G5CcGDuQ/edit?usp=sharing](https://docs.google.com/document/d/16L0N2ASrPRID6di404vrbs3I_xkavs_7UG0G5CcGDuQ/edit?usp=sharing){:target="_blank"}
+- Tutoring Procedures: **TODO**
 - Map link for CSE building lab entrance: [https://goo.gl/maps/Zps77SRmNapKfkbC9](https://goo.gl/maps/Zps77SRmNapKfkbC9){:target="_blank"}
-  - You have permission to use _any_ lab, but prefer to use the B240 lab if space is available, that's where our staff will be based
-- Greg Miranda
-  - Email: `g2miranda@eng.ucsd.edu`
-  - **Office hours**: Tuesday 9:00am-10:00am (remote), Friday 12:30pm-1:30pm, CSE 4204
+  - You have permission to use _any_ lab, but prefer to use the <TODO> lab if space is available, that's where our staff will be based
+- Instructor: Lisa Huang
+  - Email: `r6huang@ucsd.edu`
+  - **Office hours**: check calendar for time and location
 
 Do NOT use the Canvas mailing feature to contact us. We will NOT respond to those
 messages. If you need to send a private message to the instructor, you can use his ucsd email
@@ -27,7 +27,7 @@ address (but any course related questions should ideally be through Piazza).
 ## Message Board Questions
 
 You can post questions on our Piazza message board at any time:
-[https://piazza.com/ucsd/fall2023/cse12_fa23_a00/home](https://piazza.com/ucsd/fall2023/cse12_fa23_a00/home){:target="_blank"}
+[https://piazza.com/ucsd/summer2024/cse12](https://piazza.com/ucsd/summer2024/cse12){:target="_blank"}
 
 The message board is a good place for questions about something that was
 confusing in class, in videos, in the book, or generally about course content.
@@ -46,7 +46,7 @@ like “that was already covered”). Try to guide your classmates to useful
 conclusions on their own rather than solving their problems for them. Using
 emoji can always help with a positive and friendly vibe 🙂
 
-During the times where we have take-home programming exams, Piazza will not
+TODO: During the times where we have take-home programming exams, Piazza will not
 allow posting public to the class.
 
 ## Meeting with Staff and Office Hours
@@ -56,6 +56,8 @@ with staff and attending office hours.
 
 <a name="faq"></a>
 ## FAQs
+
+**TODO**
 
 **Do I have to participate if I'm on the waitlist?**
 
@@ -78,7 +80,7 @@ likely summarizes a lot of what they would tell you to get you started.
 **What's the course material like?**
 
 You can see a [previous version of the
-course](https://ucsd-cse12-sp23.github.io/){:target="_blank"}, which will give you a sense. This
+course](https://ucsd-cse12-fa23.github.io/){:target="_blank"}, which will give you a sense. This
 offering will not be identical, but will be similar.
 
 There is no required textbook for you to purchase for the course. The course uses a combination of online resources and notes from the instructors.

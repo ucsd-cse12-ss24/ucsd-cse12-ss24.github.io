@@ -1,9 +1,9 @@
 safe: true
-title: "Introduction to Programming – UCSD CSE 8A"
+title: "Basic Data Structures and Object-Oriented Design – UCSD CSE 12"
 source: .
 destination: _site
 lsi: false
-url: "https://uscd-cse8a-w20.github.io/"
+url: "https://uscd-cse12-ss24.github.io/"
 :pygments: true
 collections:
   lectures:
