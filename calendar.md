@@ -13,13 +13,8 @@ doodle: "/doodle.png"
 
 ### Remote Help
 
-TODO
-
-<!-- <iframe src="https://calendar.google.com/calendar/embed?src=c_9c571272f9c47629fffb64f2665c8aed40a9943972f691eddfab6166786f1cdc%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+<iframe src="https://calendar.google.com/calendar/embed?src=c_0207baf2f08ac97c38d70ef72cbdf0fd3c548e9351fb4b290360015dd39e53d5%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### In-Person Help
 
-TODO
-
-<!-- <iframe src="https://calendar.google.com/calendar/embed?src=c_3d8235306a63f08141e5ff7475e854ce68d12bdaa51616da3c55d57752b4a2a4%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-
+<iframe src="https://calendar.google.com/calendar/embed?src=c_70fc10674bff988c5adfbd09ec700fdf59ac2afc5f06c7b346c0c8467c695120%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

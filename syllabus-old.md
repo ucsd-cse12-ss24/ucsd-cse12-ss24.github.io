@@ -9,58 +9,35 @@ doodle: "/doodle.png"
 
 _Ruanqianqian (Lisa) Huang_
 
-Have you used a software that freezes the screen with every button click you made? Why are some programs slower than the others? Why are some softwares easy to use but others not? What does it mean to design programs that manipulate and store data properly? Data structures are at the heart of the answers to these questions.
+**TODO: update syllabus*
 
-This course focuses on two main topics: The basics of organizing data for efficient computation, and the design of programs that use collections, classes, and interfaces.
+This course focuses on two main topics: The basics of organizing data for
+efficient computation, and the design of programs that use collections,
+classes, and interfaces.
 
-## What to Expect
+Each week, we will explore topics in these areas interactively during lectures.
+You will read beyond what we explore in lecture, complete programming
+assignments to hone your coding and program design skills, and take exams that
+test your understanding of what you've learned. After, you'll be better at
+designing and understanding programs and the structure of data they work
+over.
 
-Each week, we will explore topics in these areas interactively during lectures. You will engage in discussions and collaborative hands-on work in lectures, complete programming assignments to hone your coding and program design skills, and take quizzes that evaluate your understanding of what you have learned. By the end of the course, with sufficient effort, you will be better at designing and understanding programs and the structure of data they work over, which are stepping stones to the understanding of the technical and societal impact of software as well as more advanced topics in computer science.
+This web page serves as the main source of announcements and resources for the
+course, as well as the syllabus.
 
-On an average week in CSE12, you can expect to spend 6-8 hours on lectures, in-class group work, and discussions; and 9-12 hours working on your programming assignments and reviewing materials. If you find yourself spending dramatically more time than this, it is a good idea to contact the course staff and discuss more efficient strategies in office hours.
-
-## Learning Outcomes
-Upon completion of this course, with sufficient effort, you will be able to:
-- Use, implement, modify, and test various data structures including lists, stacks, queues, trees, tables and graphs.
-- Analyze the runtime efficiency of different data structures and different implementations of abstract data types given specific scenarios.
-- Evaluate the choice of implementation for abstract data types, data structures, and software design patterns in different engineering scenarios, given their technical and societal impact.
-- Individually and collaboratively, solve substantial computational problems by using the Java programming language, object-oriented design, data structures, and algorithms, considering their technical and societal impact.
-
-
+On an average week in CSE12, you can expect to spend 4-6 hours on videos,
+reading, lecture, and discussion; 2-3 hours on programming practice; and 4-6
+hours working on your programming projects. If you find yourself spending
+dramatically more time than this, it's a good idea to contact the course staff
+and discuss more efficient strategies in office hours.
 
 ## Course Components
 
-### In-Person Lecture
-
-Expect class to be interactive; you’ll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using Google Forms (see **TODO** Participation below). 
-
-**TODO table formatting** 
-
-| Lecture    | Time | Location |
-|--------|-------|-------|
-| A00  | MW 8am - 10:50am | FAH 1450 |
-
-Podcasts will be available after lectures. However, attendance is strongly encouraged – every lecture we will spend time designing **sample exam questions** together. The questions you create and see might end up being the real exam questions.
-
-### In-Person Discussion
-
-Discussions will reinforce concepts from class and introduce concepts that are especially helpful for completing programming assignments and exams. There will be podcasts for discussions. In general, there will be two kinds of discussions:
-- **Tuesday** discussions will review concepts discussed so far and provide tips for the programming assignments (PAs) of a given week.
-- **Thursday** discussions (except Week 1) will review for the quiz/final exam of that week.
-
-| Time | Location |
-| ------- | ------- |
-| TuTh 9am - 9:50am | FAH 1450 |
-
-====
-
-## Grades
 There are a few components to your grade in the course:
 
 - Course engagement activities (10%)
 - Programming assignments (30%)
 - Exams (60%)
-
 
 Letter grades will be assigned based on the following grading scale:
 
@@ -71,9 +48,7 @@ We may adjust the above scale to be more lenient
 that we will not adjust the scale to make it harder to get a better grade. 
 We will not adjust the scale for individual students.  
 
-### Participation
-
-
+<h3>Lectures</h3>
 
 Most course content will be presented asynchronously through videos and readings, 
 with associated interactive activities which should be completed before lecture. 
@@ -95,7 +70,7 @@ an archive of any live demos that come up rather than a presentation of core con
 It can be helpful to watch the first few minutes of each lecture to see any
 annoucements. Not all annoucements are made on Piazza.
 
-### Discussion
+<h3>Discussion</h3>
 
 **In-person discussion** will reinforce concepts from class and introduce concepts that 
 are especially helpful for completing programming assignments. Discussions are also an
