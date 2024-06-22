@@ -9,6 +9,35 @@ doodle: "/doodle.png"
 
 _Ruanqianqian (Lisa) Huang_
 
+
+## Table of Contents
+- [Welcome!](#welcome)
+  - [What to Expect](#what-to-expect)
+  - [Learning Outcomes](#learning-outcomes)
+  - [Course Format](#course-format)
+- [Course Logistics](#course-logistics)
+  - [Instructional Staff](#instructional-staff)
+  - [Textbook](#textbook)
+  - [Online Discussion and Q&A](#online-discussion-and-qa)
+  - [Programming Environment](#programming-environment)
+  - [Java Documentation](#java-documentation)
+  - [Working on and Submitting Assignments](#working-on-and-submitting-assignments)
+- [Assignments, Exams, and Grading](#assignments-exams-and-grading) (the section you most likely care the most about :D)
+  - [Grades](#grades)
+  - [Engagement](#engagement)
+  - [Programming Assignments (PAs)](#programming-assignments-pas)
+  - [Exams](#exams)
+- [Policies](#policies)
+  - [Academic Integrity](#academic-integrity)
+  - [Use of Generative AI](#use-of-generative-ai)
+  - [Late or Missed Assignments/Exams](#late-or-missed-assignmentsexams)
+  - [Regrades](#regrades)
+  - [Diversity and Inclusion](#diversity-and-inclusion)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+
+# Welcome!
+
 Have you used a software that freezes the screen with every button click you made? Why are some programs slower than the others? Why are some softwares easy to use but others not? What does it mean to design programs that manipulate and store data properly? Data structures are at the heart of the answers to these questions.
 
 This course focuses on two main topics: The basics of organizing data for efficient computation, and the design of programs that use collections, classes, and interfaces.
@@ -28,39 +57,106 @@ Upon completion of this course, with sufficient effort, you will be able to:
 
 
 
-## Course Components
+## Course Format
 
 ### In-Person Lecture
 
-Expect class to be interactive; you’ll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using Google Forms (see **TODO** Participation below). 
+Expect class to be interactive; you’ll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using Google Forms (see [Engagement](#engagement) below). 
 
-**TODO table formatting** 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;
+  font-weight:bold;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
 
-| Lecture    | Time | Location |
-|--------|-------|-------|
-| A00  | MW 8am - 10:50am | FAH 1450 |
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Lecture</th>
+    <th class="tg-0pky">Time</th>
+    <th class="tg-0pky">Location</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">A00</td>
+    <td class="tg-0pky">MW 8am-10:50am</td>
+    <td class="tg-0pky">FAH 1450</td>
+  </tr>
+</tbody>
+</table>
 
 Podcasts will be available after lectures. However, attendance is strongly encouraged – every lecture we will spend time designing **sample exam questions** together. The questions you create and see might end up being the real exam questions.
 
 ### In-Person Discussion
 
-Discussions will reinforce concepts from class and introduce concepts that are especially helpful for completing programming assignments and exams. There will be podcasts for discussions. In general, there will be two kinds of discussions:
+Discussions will reinforce concepts from class and introduce concepts that are especially helpful for completing programming assignments and exams. There will be podcasts for discussions. 
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow">Time</th>
+    <th class="tg-c3ow">Location</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">TuTh 9am - 9:50am</td>
+    <td class="tg-c3ow">FAH 1450</td>
+  </tr>
+</tbody>
+</table>
+
+
+In general, there will be two kinds of discussions:
 - **Tuesday** discussions will review concepts discussed so far and provide tips for the programming assignments (PAs) of a given week.
 - **Thursday** discussions (except Week 1) will review for the quiz/final exam of that week.
 
-| Time | Location |
-| ------- | ------- |
-| TuTh 9am - 9:50am | FAH 1450 |
 
-====
+# Course Logistics
+
+## Instructional Staff
+**Instructor**: Lisa Huang ([r6huang+cse12@ucsd.edu](mailto:r6huang+cse12@ucsd.edu))
+
+**Teaching Assistant**: Rachel Lim ([ral077@ucsd.edu](ral077@ucsd.edu))
+
+**Tutors**: Kristhian Ortiz ([klortiz@ucsd.edu](klortiz@ucsd.edu)) and TBD
+
+More details about staff and help hours: use the ["Help Hours" link](/help-hours.html) on the left navigation bar
+
+
+## Textbook
+
+There is no required textbook for the course. There is a Stepik online textbook available, and it is free and interactive! It serves as a useful reference, and there will be links to relevant stepik sections in with the course schedule. While we will not grade the exercises in Stepik, you are expected to complete them before relevant lectures so that you will be prepared to participate in problem solving session and so that you know the expected pace of the course.
+
+1. Sign in or create an account at [stepik.org](stepik.org)
+2. [Join the course here](https://stepik.org/join-class/1654e15658a8ee31ababe65adb761d4901c21714){:target="_blank"}
+
+We may use other on-line resources during the quarter that may be required reading or activities. These will all be free and linked from the schedule.
+
+## Online Discussion and Q&A
+Online discussion and Q&A for the class will be available on Piazza: [sign up to join the class here](https://piazza.com/ucsd/summer2024/cse12) and [view the discussion forum here](https://piazza.com/ucsd/summer2024/cse12/home). Important announcements from the course team will be pinned at the top of your feed. When you set up your account, you can select the frequency for email notifications of messages and discussions on Piazza. Piazza is one way you can ask for and get help in this course.
+
+## Programming Environment
+While you are welcome to use your preferred programming environment for assignments, such as VSCode and IntelliJ, the officially supported environment for CSE 12 is **Eclipse**. The course staff is most familiar with Eclipse and may not be able to help you with environment issue if you choose to use a different environment. If you do not already have a programming environment for Java installed and would like to use Eclipse, please complete [PA0: Computer Set up](/assignments/pa0.html){:target="_blank"}. 
+
+## Java Documentation
+[The documentation for the Java language](https://docs.oracle.com/javase/11/), while not required reading, will be linked to from some assignments and is always a useful reference while programming. You can install any version higher than 8. The latest version is Java 22. If you would like to set everything up on your own computer and do not already have Java installed please complete [PA0: Computer Set up](/assignments/pa0.html){:target="_blank"}.
+
+## Working on and Submitting Assignments
+You’ll be submitting your classwork and seeing grading feedback through a tool called Gradescope. This is the [Gradescope page for this course](https://www.gradescope.com/courses/799152).
+
+You’ll be receiving starter code through a service called Github. You are not required to have an account to complete coursework, but it can be useful for you to make one.
+
+
+
+# Assignments, Exams, and Grading
 
 ## Grades
-There are a few components to your grade in the course:
+Your grade will be computed from:
 
-- Course engagement activities (10%)
-- Programming assignments (30%)
-- Exams (60%)
-
+- [Engagement](#engagement) (10%)
+- [Programming Assignments (PAs)](#programming-assignments-pas) (30%)
+- [Exams](#exams) (60%)
 
 Letter grades will be assigned based on the following grading scale:
 
@@ -71,70 +167,20 @@ We may adjust the above scale to be more lenient
 that we will not adjust the scale to make it harder to get a better grade. 
 We will not adjust the scale for individual students.  
 
-### Participation
-
-
-
-Most course content will be presented asynchronously through videos and readings, 
-with associated interactive activities which should be completed before lecture. 
-
-Lectures will involve problem solving with your classmates along with an opportunity
-to ask quesitons about the material. Participation is not required at problem-solving sections, 
-but it is highly encouraged.
-
-It is very important that students watch all pre-lecture videos as this is the 
-primary way to learn the CSE 12 material. 
-
-**In-person lectures** will be led during the normally-scheduled lecture times
-in the normally-scheduled room, led by the instructor. These sessions will be
-recorded by podcasting but will not be available remotely while they are ongoing. 
-You can find the recordings in the Canvas Media Gallery or at [podcast.ucsd.edu](https://podcast.ucsd.edu){:target="_blank"}
-
-Since these lectures may be mostly student discussion, the recordings are mostly 
-an archive of any live demos that come up rather than a presentation of core content.
-It can be helpful to watch the first few minutes of each lecture to see any
-annoucements. Not all annoucements are made on Piazza.
-
-### Discussion
-
-**In-person discussion** will reinforce concepts from class and introduce concepts that 
-are especially helpful for completing programming assignments. Discussions are also an
-opporunity to ask questions about the assignments as well as the course material. 
-They will be recorded. Attendance is encouraged but optional.
-
-Discussions will also be recorded by podcasting but will not be available remotely while they are ongoing. 
-You can find the recordings in the Canvas Media Gallery or at [podcast.ucsd.edu](https://podcast.ucsd.edu){:target="_blank"}
-
-### Course Engagement
+## Engagement
 
 We highly recommend actively participating in class, attending discussion, and completing the weekly review quizzes. Regularly engaging with the class in these ways counts towards the Engagement component of your overall score.
 
-This score is calculated on a weekly basis (starting in Week 1). The maximum number of points you can earn in one week is 6. The lowest weekly participation score will be dropped when calculating your overall engagement average.
+This score is calculated on a weekly basis (starting in Week 1). The maximum number of points you can earn in one week is 6. The lowest weekly engagement score will be dropped when calculating your overall engagement average.
 
 Earn engagement points by:
-- **In class participation via worksheets** In Weeks 1 through 10 (starting with the second lecture of the quarter), you will earn credit for attending and participating in lecture (3 points each) and discussion section (2 points). Worksheets will be graded for participation only and not for correctness of the response. 
+- **In class participation via Google Forms (6 points max each week)**: In Weeks 1 through 5, you will earn credit for attending and participating in lecture (2 points each) and discussion section (1 point each; the discussion in Week 2 would worth 2 points). Lecture/Discussion participation will be recorded via Google Forms that you will fill out during lecture/discussion. We have you respond to problems in lecture/discussion because there is quite a bit of evidence that sitting and listening passively [probably isn’t the best way to teach or learn science](https://www.nature.com/news/why-we-are-teaching-science-wrong-and-how-to-make-it-right-1.17963). You must submit these questions during the lecture/discussion. _These questions will be graded for participation only and not for correctness of the response._
+- **Weekly (P)review quiz (6 points max each week)**: Online quizzes review the week’s material and preview some upcoming examples each week. Each weekly review quiz will be worth 6 points. You can submit your answers to each quiz as many times as you like. The latest submission before 11pm on Monday will count towards your engagement score. **Review quizzes will be graded for correctness.** _The review quiz must be completed independently and individually. You may refer to your class notes and resources linked from this website, but not to other references. You may not share information about the review quiz with others, take the review quiz in someone else’s name, or ask anyone for prior knowledge about the review quiz._
 
-    To receive credit for attending lectures and discussion, you must make sure to check-in (check-ins will happen at random times in the middle of the lecture/discussion). The correct code for the lecture/discussion (given by the instructor/TA during lecture/discussion) must be used or credit will not be given for attending.
+We encourage you to find your preferred method for staying engaged with the course. There are lots of ways to earn full credit for a week’s engagement. For example: (1) attending all lectures and discussion sections;  (2) answering all questions on the review quiz correctly; or (3) attending two lectures and getting two answers correct on the review quiz; etc.
 
-    Attendance check-ins will be handled through Gradescope therefore it’s highly recommended to download the Gradescope mobile app to your phone so you can upload your worksheets. Otherwise, you will need to hand-in your worksheets to the instructor/TA after lecture/discussion and come to office hours to get them back. 
-    
-    If the file has not uploaded by the end of lecture/discussion, hand-in the worksheet before you or the instructor/TA leaves the room. We will not accept any worksheets once Gradescope closes (10 minutes after the lecture is scheduled to end) and the instructor/TA leaves the room and credit for attendance will not be given retroactively. 
 
-- **Weekly Review quiz** Online quizzes review the week’s material and preview some upcoming examples each week. You can submit your answers to each quiz as many times as you like. The latest submission before 8am on Monday will count towards your engagement score. Each weekly review quiz will be worth 6 points. The review quiz must be completed independently and individually. You may refer to your class notes and resources linked from this website, but not to other references. You may not share information about the review quiz with others, take the review quiz in someone else’s name, or ask anyone for prior knowledge about the review quiz.
-
-We encourage you to find your preferred method for staying engaged with the course. There are lots of ways to earn full credit for a week’s engagement. For example: (1) attending all lectures; or (2) answering all questions on the review quiz correctly; or (3) attending one lecture, discussion section, and getting one answer correct on the review quiz; etc.
-
-### Stepik Exercises (Textbook)
-
-Along with each lecture will come some optional pre-lecture work from our 
-[Stepik textbook](https://stepik.org/course/109917/syllabus){:target="_blank"}.
-Use [this link]((https://stepik.org/join-class/1654e15658a8ee31ababe65adb761d4901c21714)) to join our class for the textbook.
-
-The Stepik online texbook records your progress, and we give a schedule of expected times to finish the readings 
-(i.e. they should be completed before the lecture in which they are assigned). There is no penalty for completing these late as they will not be graded, but they are assigned so that you will be prepared to participate in problem solving session and so that you know the expected pace of the course.
-
-<a id="p:programming"></a>
-<h3>Programming Assignments (PAs)</h3>
+## Programming Assignments (PAs)
 
 Most weeks there will be a programming assignment. Direct practice with
 programming will make up the majority of your work in the course.
@@ -147,11 +193,9 @@ a staff member will grade your work and get feedback on what, if anything, you n
 
 - **After you receive your grade** you can continue to improve your assignment
 based on the feedback from grading. You can resubmit your work to the Late/Resubmit 
-submission which will be open for **two weeks** (less for those assignemnts near 
-the end of the quarter). Once the Late/Resubmit submission closes, your submission
-will again be graded. 
+submission which will be open for **one week** (less for the last PA). Once the Late/Resubmit submission closes, your submission will again be graded. 
 
-There is no penalty for resubmissions, you can still earn full credit. 
+There is no penalty for resubmissions, you can still earn up to full credit. 
 We will take the highest score between your original submission and your late/resubmission.
 
 The **Late/Resubmit** process also applies if your submission is late. You should strive
@@ -160,20 +204,14 @@ You will also receive earlier feedback and an extra grading attempt if you submi
 before the original deadline.
 
 For those assignments near the end of the quarter, the deadline for all late/resubmissions 
-will be Friday of Week 10 at 8am. We will not accept any submissions after that time, for any reason.
-
-Each student gets a free “slip day” for each programming assignment (PA) that allow an automatic 24-hour 
-extension to submit the PA. You do not have to ask to use your slip day. Just submit your 
-assignment after the deadline (but before 24 hours after the deadline) to automatically use your 
-slip day. There is no penalty for using this free slip day. 
+will be Friday of Week 5 (8/2) at 11pm. We will not accept any submissions after that time, for any reason.
 
 It's the student's responsibilty to check that the autograder worked and that all files
 have been properly uploaded (by checking the Code tab). We only accept PAs through
-Gradescope before the slip-day deadline. We will not accept any files through email, Canvas, or
+Gradescope. We will not accept any files through email, Canvas, or
 Piazza.
 
-<a id="p:open-closed"></a>
-<h3>Collaboration</h3>
+### Collaboration
 
 **This is not the same collaboration policy you have seen in your other
 programming courses. Read it carefully.**
@@ -255,11 +293,11 @@ There are two types of assignments in this course, **open** and **closed**:
   different than partners or pair programming. You must still do your own work.
 
 - **Closed** assignments, where you cannot collaborate with others. The closed 
-assignments this quarter are the programming assessments (exams). You cannot ask 
+assignments serve as programming assessments (exams). You cannot ask 
 clarification questions but you can report potential issues as private posts on
 Piazza or to staff members. Staff will not look at your code or comment on it. 
-There will no Lab/office hours during closed exams. These programming assesments
-are take-home exams.
+They will not answer questions about closed assignments during Lab/Office hours.
+These programming assesments are take-home exams.
 
   On closed assignments/assessments:
     - You cannot look at or use anyone else's code in any way.
@@ -272,7 +310,7 @@ are take-home exams.
     - All of the examples in the open section above would be
       academic integrity violations.
 
-Programming assignments will explicitly list whether they are open or closed collaboration.
+**Programming assignments will explicitly list whether they are open or closed collaboration.**
 
 You should be familiar with [the UCSD
 guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2){:target="_blank"}
@@ -284,32 +322,33 @@ violation to publicly post your code. This remains true even after the course is
 share the code wish an employer in the future, upload the code to Google Drive or Dropbox and share
 the link to the folder.
 
-<a id="g:exams"></a>
-<h3>Exams</h3>
+## Exams
 
-There will be three in-class exams during the quarter, held during the scheduled lecture time:
-- Week 4 - Wednesday 10/25/2023
-- Week 7 - Wednesday 11/15/2023
-- Week 10 - Wednesday 12/6/2023
+There will be three **quizzes** during the quarter, in FAH 1450 (same as lecture room):
+- Week 2 - Friday 7/12/2024, 9am - 10am
+- Week 3 - Wednesday 7/19/2024, 9am - 10am
+- Week 4 - Wednesday 7/26/2024, 9am - 10am
 
-The final exam will be:
-- Week 11 - Monday 12/11/2023, 8am - 11am, room will be announced in Week 10.
+The **final exam** will be:
+- Week 5 - Friday 8/2/2024, 8am - 11am, room will be announced later in the quarter. 
 
-Seats will be assigned for all exam sessions and announced beforehand, and you must bring your school ID to the exam. All work on exams is to be done on your own, and you are not allowed to use any electronics or study aids during the exam (aside from those needed for University-approved academic accommodations). You may not speak to any other student in the exam room while the exam is in progress (including after you hand in your own exam). You may not share any information about the exam with any student who has not yet taken it (including students in future quarters of CSE12).
+Seats will be assigned for all exam sessions and announced beforehand, and you must bring your school ID to the exam. All work on exams is to be done on your own, and you are not allowed to use any electronics or study aids during the exam (aside from those needed for University-approved academic accommodations). You may not speak to any other student in the exam room while the exam is in progress (including after you hand in your own exam). You may not share any information about the exam with any student who has not yet taken it (including students in future quarters of CSE 12).
 
-Each in-class exam will each be worth 20% of your final grade. The final exam will be broken into three parts, each corresponding to the material from one of the in-class exams. Your grade for each in-class exam will be the maximum of the in-class score and the score on the corresponding part of the final exam. Note: each part of the final exam is optional if you wish to only use the score of in-class exam for that part.
+**Quizzes**: Each quiz will each be worth 15% of your final grade. 
+
+**Final Exam**: The final exam will be worth 15% of your final grade and broken into four parts, three parts of which correspond to the material from one of the quizzes. The fourth part will be materials not covered in prior quizzes. Your grade for each quiz will be the maximum of the quiz score and the score on the corresponding part of the final exam. Your grade for the final exam, however, will be the total score of all parts. In other words, all parts of the final exam is required. Skipping or scoring lower on parts of the final exam will not affect your quiz grades, but will affect your final exam grade.
+
 
 For example:
-- On the three in-class exams you score 75, 0, and 95 (you miss the second). On the final exam you score 80, 75, and 0 on the three parts. Your exam scores are 80, 75, 95, giving you an exam grade of 50% (16% + 15% + 19%).
-- On the three in-class exams you score 95, 93, and 90. You skip the final so your scores are 0, 0, 0. Your exam scores are 95, 93, 90, giving you an exam grade of 55.6% (19% + 18.6% + 18%).
-- On the three in-class exams you score 75, 55, and 60. On the final you score 95, 90, 94. Your exam scores are 95, 90, 94, giving you an exam grade of 55.8% (19% + 18% + 18.8%).
+- On the three quizzes you score 75, 0, and 95 (you miss the second). On the final exam you score 80, 75, and 0 on quiz-corresponding parts, and 90 on the new part. Your exam scores are 80, 75, 95, (80 + 75 + 0 + 90) / (100 * 4) = 61.25, giving you an exam grade of 46.69% (12% + 11.25% + 14.25% + 9.19%) out of 60%.
+- On the three in-class exams you score 95, 93, and 90. You skip the final so your scores are 0, 0, 0, 0. Your exam scores are 95, 93, 90, 0, giving you an exam grade of 41.7% (14.25% + 13.95% + 13.5% + 0%) out of 60%.
+- On the three in-class exams you score 75, 55, and 60. On the final you score 95, 90, 94, 98. Your exam scores are 95, 90, 94, (95 + 90 + 94 + 98) / (100 * 4) = 94.25, giving you an exam grade of 55.99% (14.25% + 13.5% + 14.1% + 14.14%) out of 60%.
 
-This policy also covers what happens if you miss an in-class exam for any reason. If you are absent for an in-class exam, you get a 0, and then whatever score you get on the final exam for that section will be applied to your exam grade. There are no make-up in-class exams, and the final exam policy is governed by the [university’s policies](https://senate.ucsd.edu/operating-procedures/educational-policies/courses/epc-policies-on-courses/policy-exams-including-midterms-final-exams-and-religious-accommodations-for-exams/){:target="_blank"}.
+**Make-up Exams**: This policy also covers what happens if you miss a quiz for any reason. If you are absent for a quiz, you get a 0, and then whatever score you get on the final exam for that section will be applied to your quiz grade. There are no make-up quiz, and the final exam policy is governed by the [university’s policies](https://senate.ucsd.edu/operating-procedures/educational-policies/courses/epc-policies-on-courses/policy-exams-including-midterms-final-exams-and-religious-accommodations-for-exams/){:target="_blank"}.
 
-<a id="policies"></a>
-## Policies
+# Policies
 
-### Academic Integrity
+## Academic Integrity
 
 Individual assignments will describe their academic integrity requirements. You
 should pay attention to the descriptions of what collaboration is allowed and
@@ -335,14 +374,20 @@ You should be familiar with [the UCSD
 guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2){:target="_blank"}
 on academic integrity as well.
 
-### Regrades
+## Use of Generative AI
+**TODO**
+
+## Late or Missed Assignments/Exams
+**TODO**
+
+## Regrades
 
 Mistakes sometimes occur in grading. Once grades are posted for an assignment,
-we will allow a short period for you to request a fix (announced along with
+we will allow **two days** for you to request a fix (announced along with
 grade release). If you don't make a request in the given period, the grade you
 were initially given is final.
 
-### Diversity and Inclusion
+## Diversity and Inclusion
 
 We are committed to fostering a learning environment for this course that
 supports a diversity of thoughts, perspectives and experiences, and respects
@@ -369,3 +414,25 @@ If you experience any sort of harassment or discrimination, please contact the
 instructor as soon as possible.   If you prefer to speak with someone outside
 of the course, please contact the Office of Prevention of Harassment and
 Discrimination: [https://ophd.ucsd.edu/](https://ophd.ucsd.edu/){:target="_blank"}.
+
+# Frequently Asked Questions
+
+**Do I have to participate if I’m on the waitlist?**
+
+Yes, you’re responsible for everything as if you’re a normally-enrolled student while you’re on the waitlist, including any submission deadlines, and your work will be graded as usual.
+
+**I have a question about enrollments and the waitlist.**
+
+Please contact [CSE student affairs](https://cse.ucsd.edu/undergraduate/advising/cse-student-affairs-office-hours){:target=”_blank”}, who can give the best advice and information about the enrollment process. They are friendly and helpful and know much more about timing and any updates you will see through the registration system.
+
+There is some useful advice at [Enrolling in CSE Courses](https://cse.ucsd.edu/undergraduate/courses/enrolling-cse-courses){:target=”_blank”} that likely summarizes a lot of what they would tell you to get you started.
+
+**Will the course be in-person or remote? Is attendance required?**
+
+The content of the course is delivered in-person. Attendance is not required, but is highly recommended (check [Engagement](#engagement)). Studies (by UCSD faculty) have shown that attendance and participation in lecture leads to better student performance and higher grades.
+
+**Can I take an exam early/late?**
+**TODO**
+depending on your situation; we can accommodate requests with medical/religious reasons or due to family emergencies, but not personal travel, birthday parties, etc.
+
+All of the exams, including the final exam will be in-person exams.

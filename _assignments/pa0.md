@@ -8,6 +8,7 @@ released-on: "2023-04-03"
 # CSE 12 Programming Assignment 0 (Optional)
 
 ### Computer Setup
+**TODO: Explain IDE**
 
 This optional assignment will teach you how to setup Java and Eclipse, get the starter code from GitHub, and how to run Eclipse projects from your own computer. If you already have the JDK installed from a previous quarter and a way to edit, compile and run Java programs, then you can skip this assignment. If you plan on using the lab computers in the CSE basement, you can also skip this assignment.
 
