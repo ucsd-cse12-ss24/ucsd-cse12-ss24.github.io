@@ -2,7 +2,7 @@
 layout: with-sidebar
 index: 2
 name: PA1
-released-on: "2023-10-02"
+released-on: "2024-07-01"
 ---
 
 # CSE 12 Programming Assignment 1
@@ -14,7 +14,7 @@ released-on: "2023-10-02"
 This assignment will teach you to use JUnit to test implementations of an
 interface, and review a number of Java concepts.
 
-This PA is due on ** **Wednesday, October 11 at 8:00am** **
+This PA is due on ** **Thursday, July 4th at 11:00pm PT** **
 
 ## Baskets and Interns
 
@@ -101,7 +101,7 @@ they differ.
 
 ## Getting the Code
 
-The starter code available on Github at [https://github.com/ucsd-cse12-f23/cse12-pa1-Testing](https://github.com/ucsd-cse12-f23/cse12-pa1-Testing){:target="_blank"}. If you are not familiar with Github, here are two easy ways to get your code.
+The starter code available on Github at [https://github.com/ucsd-cse12-f23/cse12-pa1-Testing](https://github.com/ucsd-cse12-f23/cse12-pa1-Testing){:target="_blank"} **TODO**. If you are not familiar with Github, here are two easy ways to get your code.
 
 1. Download as a ZIP folder 
 

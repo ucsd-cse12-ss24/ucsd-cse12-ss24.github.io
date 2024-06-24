@@ -32,8 +32,9 @@ _Ruanqianqian (Lisa) Huang_
   - [Use of Generative AI](#use-of-generative-ai)
   - [Late or Missed Assignments/Exams](#late-or-missed-assignmentsexams)
   - [Regrades](#regrades)
-  - [Diversity and Inclusion](#diversity-and-inclusion)
+- [Resources for Students](#resources-for-students)
 - [Frequently Asked Questions](#frequently-asked-questions)
+- [Acknowledgements](#acknowledgements)
 
 
 # Welcome!
@@ -137,7 +138,7 @@ We may use other on-line resources during the quarter that may be required readi
 Online discussion and Q&A for the class will be available on Piazza: [sign up to join the class here](https://piazza.com/ucsd/summer2024/cse12) and [view the discussion forum here](https://piazza.com/ucsd/summer2024/cse12/home). Important announcements from the course team will be pinned at the top of your feed. When you set up your account, you can select the frequency for email notifications of messages and discussions on Piazza. Piazza is one way you can ask for and get help in this course.
 
 ## Programming Environment
-While you are welcome to use your preferred programming environment for assignments, such as VSCode and IntelliJ, the officially supported environment for CSE 12 is **Eclipse**. The course staff is most familiar with Eclipse and may not be able to help you with environment issue if you choose to use a different environment. If you do not already have a programming environment for Java installed and would like to use Eclipse, please complete [PA0: Computer Set up](/assignments/pa0.html){:target="_blank"}. 
+While you are welcome to use your preferred programming environment for assignments, such as Eclipse and IntelliJ, the officially supported environment for CSE 12 is **VSCode**. The course staff is most familiar with VSCode and may not be able to help you with environment issue if you choose to use a different environment. If you do not already have a programming environment for Java installed and would like to use VSCode, please complete [PA0: Computer Set up](/assignments/pa0.html){:target="_blank"}. 
 
 ## Java Documentation
 [The documentation for the Java language](https://docs.oracle.com/javase/11/), while not required reading, will be linked to from some assignments and is always a useful reference while programming. You can install any version higher than 8. The latest version is Java 22. If you would like to set everything up on your own computer and do not already have Java installed please complete [PA0: Computer Set up](/assignments/pa0.html){:target="_blank"}.
@@ -375,10 +376,43 @@ guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices
 on academic integrity as well.
 
 ## Use of Generative AI
-**TODO**
+
+These following policies regarding generative artificial intelligence use apply only in CSE 12 Summer 2024, and may not necessarily apply in other classes at UCSD or reflect the university’s stance on AI use in education.
+
+_TL;DR_: You may use AI, but you should use it with caution. In CSE 12, you cannot use AI for closed PAs and exams.
+
+**Can I use generative AI for assignments?**
+
+Yes! Generative AI (e.g., tools like ChatGPT, Github Copilot) can be a powerful tool to support your own learning. In CSE 12, we encourage you to use AI responsibly, or else you may risk failing exams and cthe closed PAs. If you use AI to help you on a PA, we would like you to briefly cite how you used AI in a comment. This citation allows us to understand the role of AI in the learning process, and will not impact your grade.
+
+**Does that mean I can use generative AI to do all my assignments for me?**
+
+No. You may use AI for review quizzes and open PAs. We require that you can understand the material on your own. If you do use AI to help you learn or complete assignments, be sure that you’re able to understand everything on your own. However, **you can’t use AI for closed PAs or during exams!** We could tell if AI is used in closed PAs (just like how we could tell cheating), and cases caught will result in violations of academic integrity. 
+
+**For assignments where AI is allowed, how can I use generative AI to help me learn?**
+
+Some of the most well-known generative AI tools available are designed to be chatbots (ChatGPT, Bing Chat, Bard, Claude,  etc.), so one way to approach using AI is to treat them like a friend in this class. For example:
+- You can ask an AI chatbot to explain a snippet of code to you, and you can ask follow up questions.
+- You can give an AI chatbot a snippet of code and an error message, and you can ask it to help you debug your program.
+
+**What should I be aware of when using generative AI?**
+
+While generative AI tools may seem intelligent, it is important to recognize that there are significant limitations, including but not limited to:
+- AI can make up facts and pretend to know things it doesn’t. Be sure to double-check any information it tells you if you’re unsure.
+- AI may be able to write code well, but don’t let this replace your own learning. Being able to read, write, and understand code on your own are critical skills for programmers. If you are interested in programming-related jobs, skills taught in CSE 12 are fundamental in technical interviews; to land on one of those jobs, you want to make sure _you_ have acquired the skills, not AI!
+
+**I have other questions about using generative AI in CSE 12.**
+
+We encourage you to ask any questions about our policies publicly on Edstem, or directly to the instructor or the TAs via email or during office hours. Figuring out how to work with generative AI is a new challenge for both students and educators, so we encourage you to have an open discussion about it!
+UCSD provides additional resources for students about how to use generative AI in a way that upholds academic integrity.
+UCSD Academic Integrity Office: [https://academicintegrity.ucsd.edu/faq/index.html](https://academicintegrity.ucsd.edu/faq/index.html)
+UCSD Library: [https://ucsd.libguides.com/c.php?g=1322935](https://ucsd.libguides.com/c.php?g=1322935)
 
 ## Late or Missed Assignments/Exams
-**TODO**
+The [Assignments, Exams, and Grading] section details which assignments can be submitted late or missed without penalty. In summary:
+- [Engagement](#engagement) grades can be earned in various ways but no late submissions will be accepted. The week with the lowest engagement grade will be dropped when calculating final grades.
+- [Programming Assignments (PAs)](#programming-assignments-pas) can be resubmitted/late until up to one week after the deadline; the last PA must be submitted by the final exam day.
+- [Exams](#exams): Missed quizzes can be "retaken" during the final exam. No exam can be taken late.
 
 ## Regrades
 
@@ -387,33 +421,32 @@ we will allow **two days** for you to request a fix (announced along with
 grade release). If you don't make a request in the given period, the grade you
 were initially given is final.
 
+# Resources for Students
+
+## Getting Help with this Course
+
+If you need help at any time this quarter, please contact the instructor, the TA, or the tutors. We are happy to work with you. You may also post general questions on Piazza.
+
+The IDEA Engineering Student Center, located just off the lobby of Jacobs Hall, is a hub for student engagement, academic enrichment, personal/professional development, leadership, community involvement, and a respectful learning environment for all. The Center offers a variety of programs, listed in the IDEA Center Facebook page at [http://www.facebook.com/ucsdidea/](http://www.facebook.com/ucsdidea/) and the Center web site at [http://idea.ucsd.edu/](http://idea.ucsd.edu/). The IDEA Center programs support both undergraduate students and graduate students.
+
 ## Diversity and Inclusion
 
-We are committed to fostering a learning environment for this course that
-supports a diversity of thoughts, perspectives and experiences, and respects
-your identities (including race, ethnicity, heritage, gender, sex, class,
-sexuality, religion, ability, age, educational background, etc.).  Our goal is
-to create a diverse and inclusive learning environment where all students feel
-comfortable and can thrive.
+We are committed to fostering a learning environment for this course that supports a diversity of thoughts, perspectives and experiences, and respects your identities (including race, ethnicity, heritage, gender, sex, class, sexuality, religion, ability, age, educational background, etc.). Our goal is to create a diverse and inclusive learning environment where all students feel comfortable and can thrive. 
 
-Our instructional staff will make a concerted effort to be welcoming and
-inclusive to the wide diversity of students in this course.  If there is a way
-we can make you feel more included please let one of the course staff know,
-either in person, via email/discussion board, or even in a note under the door.
-Our learning about diverse perspectives and identities is an ongoing process,
-and we welcome your perspectives and input.
+Our instructional staff will make a concerted effort to be welcoming and inclusive to the wide diversity of students in this course. If there is a way we can make you feel more included please let one of the course staff know, either in person, via email/discussion board, or even in a note under the door. Our learning about diverse perspectives and identities is an ongoing process, and we welcome your perspectives and input. 
 
-We also expect that you, as a student in this course, will honor and respect
-your classmates, abiding by the [UCSD Principles of Community]
-(https://ucsd.edu/about/principles.html){:target="_blank"}.  Please understand that others’
-backgrounds, perspectives and experiences may be different than your own, and
-help us to build an environment where everyone is respected and feels
-comfortable.
+We also expect that you, as a student in this course, will honor and respect your classmates, abiding by the UCSD Principles of Community ([https://ucsd.edu/about/principles.html](https://ucsd.edu/about/principles.html)). Please understand that others’ backgrounds, perspectives and experiences may be different from your own, and help us to build an environment where everyone is respected and feels comfortable.
 
-If you experience any sort of harassment or discrimination, please contact the
-instructor as soon as possible.   If you prefer to speak with someone outside
-of the course, please contact the Office of Prevention of Harassment and
-Discrimination: [https://ophd.ucsd.edu/](https://ophd.ucsd.edu/){:target="_blank"}.
+If you experience any sort of harassment or discrimination, please contact the instructor as soon as possible. If you prefer to speak with someone outside of the course, please contact the Office of Prevention of Harassment and Discrimination: [https://ophd.ucsd.edu/](https://ophd.ucsd.edu/). 
+
+## Students with Disabilities
+
+We aim to create an environment in which all students can succeed in this course. If you have a disability, please contact the Office for Students with Disability (OSD), which is located in University Center 202 behind Center Hall, to discuss appropriate accommodations right away. We will work to provide you with the accommodations you need, but you must first provide a current Authorization for Accommodation (AFA) letter issued by the OSD. You are required to present their AFA letters to Faculty (please make arrangements to contact the instructor privately) and to the OSD Liaison in the department in advance so that accommodations may be arranged.
+
+## Basic Needs/Food Insecurities
+
+If you are experiencing any basic needs insecurities (food, housing, financial resources), there are resources available on campus to help, including The Hub and the Triton Food Pantry. Please visit [http://thehub.ucsd.edu/](http://thehub.ucsd.edu/) for more information.
+
 
 # Frequently Asked Questions
 
@@ -429,10 +462,17 @@ There is some useful advice at [Enrolling in CSE Courses](https://cse.ucsd.edu/u
 
 **Will the course be in-person or remote? Is attendance required?**
 
-The content of the course is delivered in-person. Attendance is not required, but is highly recommended (check [Engagement](#engagement)). Studies (by UCSD faculty) have shown that attendance and participation in lecture leads to better student performance and higher grades.
+The content of the course is delivered in-person. You can revisit lectures and discussions remotely on UCSD Podcast _after_ they are delivered in person. Attendance is not required, but is highly recommended (check [Engagement](#engagement)). Studies (by UCSD faculty) have shown that attendance and participation in lecture leads to better student performance and higher grades.
+
+**Can I take an exam remotely?**
+No. All exams, including quizzes and the final exam, will be in person.
 
 **Can I take an exam early/late?**
-**TODO**
-depending on your situation; we can accommodate requests with medical/religious reasons or due to family emergencies, but not personal travel, birthday parties, etc.
+- For quizzes, we will not offer accommodations as one may retake them during the final exam (see [Exams](#exams)). Quizzes will be released to all students after grades are released for practice purposes.
+- For the final exam, we will provide accommodations following the [university policy](https://senate.ucsd.edu/operating-procedures/educational-policies/courses/epc-policies-on-courses/policy-exams-including-midterms-final-exams-and-religious-accommodations-for-exams/) for unforseeable circumstances including serious illness and family emergencies. Please contact the instructor when requesting accommodations.
 
-All of the exams, including the final exam will be in-person exams.
+# Acknowledgements
+
+“This public acknowledgment serves to honor and respect Indigenous peoples and their land on which our campus resides. UC San Diego was built upon the territory of the Kumeyaay Nation. From time immemorial, the Kumeyaay people have been a part of this land. Today, the Kumeyaay people continue to maintain their political sovereignty and cultural traditions as vital members of the San Diego community.”
+
+The course syllabus was partially adapted from Greg Miranda’s CSE 12 (Fall 2023), Gerald Soosairaj's CSE 29 (Spring 2024), and Lisa Huang’s CSE 193 (Fall 2023).
