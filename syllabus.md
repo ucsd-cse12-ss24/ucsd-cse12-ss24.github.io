@@ -172,7 +172,7 @@ We will not adjust the scale for individual students.
 
 We highly recommend actively participating in class, attending discussion, and completing the weekly review quizzes. Regularly engaging with the class in these ways counts towards the Engagement component of your overall score.
 
-This score is calculated on a weekly basis (starting in Week 1). The maximum number of points you can earn in one week is 6. The lowest weekly engagement score will be dropped when calculating your overall engagement average.
+This score is calculated on a weekly basis (starting in Week 1). The maximum number of points you can earn in one week is 6. 
 
 Earn engagement points by:
 - **In class participation via Google Forms (6 points max each week)**: In Weeks 1 through 5, you will earn credit for attending and participating in lecture (2 points each) and discussion section (1 point each; the discussion in Week 2 would worth 2 points). Lecture/Discussion participation will be recorded via Google Forms that you will fill out during lecture/discussion. We have you respond to problems in lecture/discussion because there is quite a bit of evidence that sitting and listening passively [probably isn’t the best way to teach or learn science](https://www.nature.com/news/why-we-are-teaching-science-wrong-and-how-to-make-it-right-1.17963). You must submit these questions during the lecture/discussion. _These questions will be graded for participation only and not for correctness of the response._
@@ -410,7 +410,7 @@ UCSD Library: [https://ucsd.libguides.com/c.php?g=1322935](https://ucsd.libguide
 
 ## Late or Missed Assignments/Exams
 The [Assignments, Exams, and Grading] section details which assignments can be submitted late or missed without penalty. In summary:
-- [Engagement](#engagement) grades can be earned in various ways but no late submissions will be accepted. The week with the lowest engagement grade will be dropped when calculating final grades.
+- [Engagement](#engagement) grades can be earned in various ways but no late submissions will be accepted. 
 - [Programming Assignments (PAs)](#programming-assignments-pas) can be resubmitted/late until up to one week after the deadline; the last PA must be submitted by the final exam day.
 - [Exams](#exams): Missed quizzes can be "retaken" during the final exam. No exam can be taken late.
 
