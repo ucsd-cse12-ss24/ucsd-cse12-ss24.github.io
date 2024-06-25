@@ -470,6 +470,7 @@ No. All exams, including quizzes and the final exam, will be in person.
 **Can I take an exam early/late?**
 - For quizzes, we will not offer accommodations as one may retake them during the final exam (see [Exams](#exams)). Quizzes will be released to all students after grades are released for practice purposes.
 - For the final exam, we will provide accommodations following the [university policy](https://senate.ucsd.edu/operating-procedures/educational-policies/courses/epc-policies-on-courses/policy-exams-including-midterms-final-exams-and-religious-accommodations-for-exams/) for unforseeable circumstances including serious illness and family emergencies. Please contact the instructor when requesting accommodations.
+- We will also accommodate final exams in conflict with finals of other courses. Please email the instructor screenshots of your WebReg record showing the conflict.
 
 # Acknowledgements
 
