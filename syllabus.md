@@ -90,9 +90,9 @@ Expect class to be interactive; you’ll work through problems in groups, compar
 
 Podcasts will be available after lectures. However, attendance is strongly encouraged – every lecture we will spend time designing **sample exam questions** together. The questions you create and see might end up being the real exam questions.
 
-### In-Person Discussion
+### Discussion
 
-Discussions will reinforce concepts from class and introduce concepts that are especially helpful for completing programming assignments and exams. There will be podcasts for discussions. 
+Discussions will reinforce concepts from class and introduce concepts that are especially helpful for completing programming assignments and exams. There will be podcasts/recordings for discussions. 
 
 <table class="tg"><thead>
   <tr>
@@ -102,15 +102,15 @@ Discussions will reinforce concepts from class and introduce concepts that are e
 <tbody>
   <tr>
     <td class="tg-c3ow">TuTh 9am - 9:50am</td>
-    <td class="tg-c3ow">FAH 1450</td>
+    <td class="tg-c3ow">Tu: Zoom; Th: FAH 1450</td>
   </tr>
 </tbody>
 </table>
 
 
 In general, there will be two kinds of discussions:
-- **Tuesday** discussions will review concepts discussed so far and provide tips for the programming assignments (PAs) of a given week.
-- **Thursday** discussions (except Week 1) will review for the quiz/final exam of that week.
+- **Tuesday** online discussions will review concepts discussed so far and provide tips for the programming assignments (PAs) of a given week.
+- **Thursday** in-person discussions (except Week 1) will review for the quiz/final exam of that week.
 
 
 # Course Logistics
@@ -155,7 +155,7 @@ You’ll be receiving starter code through a service called Github. You are not 
 ## Grades
 Your grade will be computed from:
 
-- [Engagement](#engagement) (10%)
+- [Engagement](#engagement) (10%; Extra credit: 10%)
 - [Programming Assignments (PAs)](#programming-assignments-pas) (30%)
 - [Exams](#exams) (60%)
 
@@ -172,13 +172,13 @@ We will not adjust the scale for individual students.
 
 We highly recommend actively participating in class, attending discussion, and completing the weekly review quizzes. Regularly engaging with the class in these ways counts towards the Engagement component of your overall score.
 
-This score is calculated on a weekly basis (starting in Week 1). The maximum number of points you can earn in one week is 6. 
+This score is calculated on a weekly basis (starting in Week 1). You need 6 points per week to earn full credit. The maximum number of points you can earn in one week is 12, which might give you extra credit.
 
 Earn engagement points by:
 - **In class participation via Google Forms (6 points max each week)**: In Weeks 1 through 5, you will earn credit for attending and participating in lecture (2 points each) and discussion section (1 point each; the discussion in Week 2 would worth 2 points). Lecture/Discussion participation will be recorded via Google Forms that you will fill out during lecture/discussion. We have you respond to problems in lecture/discussion because there is quite a bit of evidence that sitting and listening passively [probably isn’t the best way to teach or learn science](https://www.nature.com/news/why-we-are-teaching-science-wrong-and-how-to-make-it-right-1.17963). You must submit these questions during the lecture/discussion. _These questions will be graded for participation only and not for correctness of the response._
 - **Weekly (P)review quiz (6 points max each week)**: Online quizzes review the week’s material and preview some upcoming examples each week. Each weekly review quiz will be worth 6 points. You can submit your answers to each quiz as many times as you like. The latest submission before 11pm on Monday will count towards your engagement score. **Review quizzes will be graded for correctness.** _The review quiz must be completed independently and individually. You may refer to your class notes and resources linked from this website, but not to other references. You may not share information about the review quiz with others, take the review quiz in someone else’s name, or ask anyone for prior knowledge about the review quiz._
 
-We encourage you to find your preferred method for staying engaged with the course. There are lots of ways to earn full credit for a week’s engagement. For example: (1) attending all lectures and discussion sections;  (2) answering all questions on the review quiz correctly; or (3) attending two lectures and getting two answers correct on the review quiz; etc.
+We encourage you to find your preferred method for staying engaged with the course. There are lots of ways to earn full credit for a week’s engagement. For example: (1) attending all lectures and discussion sections;  (2) answering all questions on the review quiz correctly; or (3) attending two lectures and getting two points on the review quiz; etc. If you decide to complete review quizzes on top of attending all lectures and discussions, you will get extra credit for your course grade.
 
 
 ## Programming Assignments (PAs)
@@ -313,8 +313,7 @@ These programming assesments are take-home exams.
 
 **Programming assignments will explicitly list whether they are open or closed collaboration.**
 
-You should be familiar with [the UCSD
-guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2){:target="_blank"}
+You should be familiar with [the UCSD guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2){:target="_blank"}
 on academic integrity as well.
 
 Do not post your PA solutions publicly on any site, including Github. If you fork the Github starter code repos
@@ -371,23 +370,22 @@ We don't expect to use this option much (certainly **you** are a student that
 acts with integrity!), but we state it clearly in the syllabus in case it
 becomes necessary so it isn't a surprise to anyone.
 
-You should be familiar with [the UCSD
-guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2){:target="_blank"}
+You should be familiar with [the UCSD guidelines](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2){:target="_blank"}
 on academic integrity as well.
 
 ## Use of Generative AI
 
 These following policies regarding generative artificial intelligence use apply only in CSE 12 Summer 2024, and may not necessarily apply in other classes at UCSD or reflect the university’s stance on AI use in education.
 
-_TL;DR_: You may use AI, but you should use it with caution. In CSE 12, you cannot use AI for closed PAs and exams.
+_TL;DR_: You may use AI, but you should use it with caution. In CSE 12, you cannot use AI for closed PAs, review quizzes, or exams.
 
 **Can I use generative AI for assignments?**
 
-Yes! Generative AI (e.g., tools like ChatGPT, Github Copilot) can be a powerful tool to support your own learning. In CSE 12, we encourage you to use AI responsibly, or else you may risk failing exams and cthe closed PAs. If you use AI to help you on a PA, we would like you to briefly cite how you used AI in a comment. This citation allows us to understand the role of AI in the learning process, and will not impact your grade.
+Yes, you can use Generative AI for **open PAs** only. Generative AI (e.g., tools like ChatGPT, Github Copilot) can be a powerful tool to support your own learning. In CSE 12, we encourage you to use AI responsibly, or else you may risk failing exams and cthe closed PAs. If you use AI to help you on a PA, we would like you to briefly cite how you used AI in a comment. This citation allows us to understand the role of AI in the learning process, and will not impact your grade.
 
 **Does that mean I can use generative AI to do all my assignments for me?**
 
-No. You may use AI for review quizzes and open PAs. We require that you can understand the material on your own. If you do use AI to help you learn or complete assignments, be sure that you’re able to understand everything on your own. However, **you can’t use AI for closed PAs or during exams!** We could tell if AI is used in closed PAs (just like how we could tell cheating), and cases caught will result in violations of academic integrity. 
+No. You may use AI for open PAs only. We require that you can understand the material on your own. If you do use AI to help you learn or complete assignments, be sure that you’re able to understand everything on your own. However, **you can’t use AI for closed PAs, review quizzes, or during exams!** We could tell if AI is used in closed PAs (just like how we could tell cheating). Since review quizzes resemble real exam questions, using AI for review quizzes is not going to help you with exams. Cases caught will result in violations of academic integrity. 
 
 **For assignments where AI is allowed, how can I use generative AI to help me learn?**
 
@@ -454,7 +452,7 @@ If you are experiencing any basic needs insecurities (food, housing, financial r
 
 Yes, you’re responsible for everything as if you’re a normally-enrolled student while you’re on the waitlist, including any submission deadlines, and your work will be graded as usual.
 
-**I have a question about enrollments and the waitlist.**
+**I have a question about enrollments and the waitlist. E.g., How likely is it for me to get into this class?**
 
 Please contact [CSE student affairs](https://cse.ucsd.edu/undergraduate/advising/cse-student-affairs-office-hours){:target=”_blank”}, who can give the best advice and information about the enrollment process. They are friendly and helpful and know much more about timing and any updates you will see through the registration system.
 
@@ -462,7 +460,7 @@ There is some useful advice at [Enrolling in CSE Courses](https://cse.ucsd.edu/u
 
 **Will the course be in-person or remote? Is attendance required?**
 
-The content of the course is delivered in-person. You can revisit lectures and discussions remotely on UCSD Podcast _after_ they are delivered in person. Attendance is not required, but is highly recommended (check [Engagement](#engagement)). Studies (by UCSD faculty) have shown that attendance and participation in lecture leads to better student performance and higher grades.
+The content of the course is delivered in-person, except for Tuesday discussions, which will be on Zoom. You can revisit lectures and discussions remotely on UCSD Podcast (accessed via Canvas) _after_ they are delivered in person. Attendance is not required, but is highly recommended (check [Engagement](#engagement)). Studies (by UCSD faculty) have shown that attendance and participation in lecture leads to better student performance and higher grades.
 
 **Can I take an exam remotely?**
 No. All exams, including quizzes and the final exam, will be in person.
