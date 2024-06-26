@@ -6,25 +6,20 @@ title: "UCSD CSE12 – Basic Data Structures and Object-Oriented Design"
 ## Asking Questions and Getting Help
 
 There are 4 staff members (instructor, TAs, and tutors) to help with your
-learning, and a few different ways to get in touch and ask for help.
+learning, and a few different ways to get in touch and ask for help. 
 
-Quick links:
+<!-- Quick links:
 
-- [Course FAQs (includes waitlist FAQs)](#faq)
 - Piazza Message Board: [https://piazza.com/ucsd/summer2024/cse12](https://piazza.com/ucsd/summer2024/cse12){:target="_blank"}
-- Lab queue (autograder) for in person help: [https://autograder.ucsd.edu](https://autograder.ucsd.edu){:target="_blank"}
-- Tutoring Procedures: **TODO**
+- Lab queue (autograder) for tutor hours help: [https://autograder.ucsd.edu](https://autograder.ucsd.edu){:target="_blank"}
+- Tutoring Procedures: [https://docs.google.com/document/d/1Wo6drEcmlHjKBR9YKC_T5pind1G8Kw1oxfh9S-GfhTg/edit?usp=sharing](https://docs.google.com/document/d/1Wo6drEcmlHjKBR9YKC_T5pind1G8Kw1oxfh9S-GfhTg/edit?usp=sharing){:target="_blank"}
 - Map link for CSE building lab entrance: [https://goo.gl/maps/Zps77SRmNapKfkbC9](https://goo.gl/maps/Zps77SRmNapKfkbC9){:target="_blank"}
-  - You have permission to use _any_ lab, but prefer to use the B240 lab if space is available, that's where our staff will be based
-- Instructor: Lisa Huang
-  - Email: `r6huang@ucsd.edu`
-  - **Office hours**: check calendar for time and location
+  - You have permission to use _any_ lab, but prefer to use the B240 lab if space is available, that's where our staff will be based -->
 
-Do NOT use the Canvas mailing feature to contact us. We will NOT respond to those
-messages. If you need to send a private message to the instructor, you can use his ucsd email
-address (but any course related questions should ideally be through Piazza).
+**Do NOT use the Canvas mailing feature to contact us. We will NOT respond to those messages.** 
+If you need to send a private message to the instructor, you can email her using the address above (but any course related questions should ideally be through Piazza).
 
-## Message Board Questions
+## Piazza Message Board Questions
 
 You can post questions on our Piazza message board at any time:
 [https://piazza.com/ucsd/summer2024/cse12](https://piazza.com/ucsd/summer2024/cse12){:target="_blank"}
@@ -46,56 +41,9 @@ like “that was already covered”). Try to guide your classmates to useful
 conclusions on their own rather than solving their problems for them. Using
 emoji can always help with a positive and friendly vibe 🙂
 
-TODO: During the times where we have take-home programming exams, Piazza will not
-allow posting public to the class.
+**Note:** During the times where we have closed PAs, Piazza will not
+allow posting public to the class, including requests for clarifications. The staff will announce to the entire class when there is a need.
 
 ## Meeting with Staff and Office Hours
 Please see the [Help Hours page](/help-hours.html) for more details on meeting 
 with staff and attending office hours.
-
-
-<a name="faq"></a>
-## FAQs
-
-**TODO**
-
-**Do I have to participate if I'm on the waitlist?**
-
-Yes, you're responsible for everything as if you're a normally-enrolled student
-while you're on the waitlist, including any submission deadlines, and your work
-will be graded as usual.
-
-**I have a question about enrollments and the waitlist.**
-
-Please contact [CSE student
-affairs](https://cse.ucsd.edu/undergraduate/undergraduate/advising/cse-student-affairs-office-hours){:target="_blank"},
-who can give the best advice and information about the enrollment process. They
-are friendly and helpful and know much more about timing and any updates you
-will see through the registration system.
-
-There is some useful advice at [Enrolling in CSE
-Courses](https://cse.ucsd.edu/undergraduate/courses/enrolling-cse-courses){:target="_blank"} that
-likely summarizes a lot of what they would tell you to get you started.
-
-**What's the course material like?**
-
-You can see a [previous version of the
-course](https://ucsd-cse12-fa23.github.io/){:target="_blank"}, which will give you a sense. This
-offering will not be identical, but will be similar.
-
-There is no required textbook for you to purchase for the course. The course uses a combination of online resources and notes from the instructors.
-
-**Can I audit the course?**
-
-You can use all the public resources on this website, and if you're a UCSD
-community member, you can view all the podcasts for the problem sessions at
-[https://podcast.ucsd.edu/](https://podcast.ucsd.edu/). Beyond that we don't
-have any formalized support for auditing the course.
-
-**Do we need a clicker for this class?**
-
-No. We use Gradescope to collect worksheets for lecture participation credit.
-
-**Where are the icons from?**
-
-Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.

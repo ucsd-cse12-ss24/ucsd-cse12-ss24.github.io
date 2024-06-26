@@ -19,11 +19,10 @@ If you run into any problems, please reach out to a tutor during tutor hours usi
 
 What if you already have a different version of Java? In general, you will most likely be fine, but if you run into problems compiling and running your code, we will suggest uninstalling your old version and reinstalling the latest JDK.
 
-## Using the CSE Basement Lab Computers
+## Using the CSE Basement Lab Computers **TODO**
 
-Log into your cs12sp24 account **TODO**.
+Log into a lab machine using your regular UCSD credentials.
 - If the lab computer is in Windows then restart and choose CentOS.
-- If you’re logged into the lab machine with your regular UCSD credentials, first log out. Then, log in to the machine with your CSE 12 account. The username starts with "cs12sp24" **TODO**. If you don’t know what it is, use the ACMS account lookup tool: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php){:target="_blank"}.
 
 ## Download Java & VSCode
 

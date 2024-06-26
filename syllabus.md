@@ -33,7 +33,7 @@ _Ruanqianqian (Lisa) Huang_
   - [Late or Missed Assignments/Exams](#late-or-missed-assignmentsexams)
   - [Regrades](#regrades)
 - [Resources for Students](#resources-for-students)
-- [Frequently Asked Questions](#frequently-asked-questions)
+- [Frequently Asked Questions](#frequently-asked-questions) (check if your question has been answered here already!)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -469,6 +469,31 @@ No. All exams, including quizzes and the final exam, will be in person.
 - For quizzes, we will not offer accommodations as one may retake them during the final exam (see [Exams](#exams)). Quizzes will be released to all students after grades are released for practice purposes.
 - For the final exam, we will provide accommodations following the [university policy](https://senate.ucsd.edu/operating-procedures/educational-policies/courses/epc-policies-on-courses/policy-exams-including-midterms-final-exams-and-religious-accommodations-for-exams/) for unforseeable circumstances including serious illness and family emergencies. Please contact the instructor when requesting accommodations.
 - We will also accommodate final exams in conflict with finals of other courses. Please email the instructor screenshots of your WebReg record showing the conflict.
+
+**What's the course material like?**
+
+You can see a [previous version of the course](https://ucsd-cse12-sp24.github.io/){:target="_blank"}, which will give you a sense. This offering will cover the similar topics covered in prior iterations.
+However, because of the uniqueness of summer sessions, there will be differences in pace and focus.
+
+There is no required textbook for you to purchase for the course. The course uses a combination of online resources and notes from the instructor.
+
+**Can I audit the course?**
+
+You can use all the public resources on this website, and if you're a UCSD
+community member, you can view all the podcasts for the problem sessions at
+[https://podcast.ucsd.edu/](https://podcast.ucsd.edu/). Beyond that we don't
+have any formalized support for auditing the course.
+
+**Do we need a clicker for this class?**
+
+No. We use Gradescope to collect Engagement credit.
+
+**Where are the icons from?**
+
+Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+
+
+
 
 # Acknowledgements
 
