@@ -118,9 +118,9 @@ In general, there will be two kinds of discussions:
 ## Instructional Staff
 **Instructor**: Lisa Huang ([r6huang+cse12@ucsd.edu](mailto:r6huang+cse12@ucsd.edu))
 
-**Teaching Assistant**: Rachel Lim ([ral077@ucsd.edu](ral077@ucsd.edu))
+**Teaching Assistant**: Rachel Lim ([ral077@ucsd.edu](mailto:ral077@ucsd.edu))
 
-**Tutors**: Kristhian Ortiz ([klortiz@ucsd.edu](klortiz@ucsd.edu)) and TBD
+**Tutors**: Kristhian Ortiz ([klortiz@ucsd.edu](mailto:klortiz@ucsd.edu)) and Wenhua Tang [w7tang@ucsd.edu](mailto:w7tang@ucsd.edu)
 
 More details about staff and help hours: use the ["Help Hours" link](/help-hours.html) on the left navigation bar
 

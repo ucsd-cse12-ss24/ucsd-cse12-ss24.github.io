@@ -15,7 +15,7 @@ Quick links:
 - Lab queue (autograder) for in person help: [https://autograder.ucsd.edu](https://autograder.ucsd.edu){:target="_blank"}
 - Tutoring Procedures: **TODO**
 - Map link for CSE building lab entrance: [https://goo.gl/maps/Zps77SRmNapKfkbC9](https://goo.gl/maps/Zps77SRmNapKfkbC9){:target="_blank"}
-  - You have permission to use _any_ lab, but prefer to use the <TODO> lab if space is available, that's where our staff will be based
+  - You have permission to use _any_ lab, but prefer to use the B240 lab if space is available, that's where our staff will be based
 - Instructor: Lisa Huang
   - Email: `r6huang@ucsd.edu`
   - **Office hours**: check calendar for time and location
