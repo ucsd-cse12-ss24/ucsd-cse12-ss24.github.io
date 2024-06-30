@@ -19,6 +19,5 @@ assignments.
 <iframe 
 style="border: none; border-top: 1px solid grey; border-spacing: 2px"
 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXMe2VMGWcaotvUxszlkBqKqe2saj2loRSbzmsm85ohn5rMoYpJrOPZ4aSGMY9bUMpxshsej9b3MZY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-width="100%" height="2000px"
->
-</iframe>
+width="130%" height="1700px"
+></iframe>

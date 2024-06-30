@@ -17,7 +17,7 @@ learning, and a few different ways to get in touch and ask for help.
   - You have permission to use _any_ lab, but prefer to use the B240 lab if space is available, that's where our staff will be based -->
 
 **Do NOT use the Canvas mailing feature to contact us. We will NOT respond to those messages.** 
-If you need to send a private message to the instructor, you can email her using the address above (but any course related questions should ideally be through Piazza).
+If you need to send a private message to the instructor, you can email her at [r6huang+cse12@ucsd.edu](mailto:r6huang+cse12@ucsd.edu) (but any course related questions should ideally be through Piazza).
 
 ## Piazza Message Board Questions
 

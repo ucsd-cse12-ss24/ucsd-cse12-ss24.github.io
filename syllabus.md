@@ -62,7 +62,7 @@ Upon completion of this course, with sufficient effort, you will be able to:
 
 ### In-Person Lecture
 
-Expect class to be interactive; you’ll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using Google Forms (see [Engagement](#engagement) below). 
+Expect class to be interactive; you’ll work through problems in groups, compare multiple approaches to solutions, and answer multiple-choice questions using Gradescope quizzes (see [Engagement](#engagement) below). 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -88,7 +88,7 @@ Expect class to be interactive; you’ll work through problems in groups, compar
 </tbody>
 </table>
 
-Podcasts will be available after lectures. However, attendance is strongly encouraged – every lecture we will spend time designing **sample exam questions** together. The questions you create and see might end up being the real exam questions.
+Podcasts will be available after lectures. However, attendance is strongly encouraged – in every lecture we will work on questions together that **resemble exam questions**. In some lectures, we will spend time designing **sample exam questions**. The questions you create and see might end up being the real exam questions.
 
 ### Discussion
 
@@ -120,9 +120,9 @@ In general, there will be two kinds of discussions:
 
 **Teaching Assistant**: Rachel Lim ([ral077@ucsd.edu](mailto:ral077@ucsd.edu))
 
-**Tutors**: Kristhian Ortiz ([klortiz@ucsd.edu](mailto:klortiz@ucsd.edu)) and Wenhua Tang [w7tang@ucsd.edu](mailto:w7tang@ucsd.edu)
+**Tutors**: Kristhian Ortiz ([klortiz@ucsd.edu](mailto:klortiz@ucsd.edu)) and Wenhua Tang ([w7tang@ucsd.edu](mailto:w7tang@ucsd.edu))
 
-More details about staff and help hours: use the ["Help Hours" link](/help-hours.html) on the left navigation bar
+More details about staff and help hours: use the ["Help Hours" link](/help-hours.html) on the left navigation bar.
 
 
 ## Textbook
@@ -175,10 +175,10 @@ We highly recommend actively participating in class, attending discussion, and c
 This score is calculated on a weekly basis (starting in Week 1). You need 6 points per week to earn full credit. The maximum number of points you can earn in one week is 12, which might give you extra credit.
 
 Earn engagement points by:
-- **In class participation via Google Forms (6 points max each week)**: In Weeks 1 through 5, you will earn credit for attending and participating in lecture (2 points each) and discussion section (1 point each; the discussion in Week 2 would worth 2 points). Lecture/Discussion participation will be recorded via Google Forms that you will fill out during lecture/discussion. We have you respond to problems in lecture/discussion because there is quite a bit of evidence that sitting and listening passively [probably isn’t the best way to teach or learn science](https://www.nature.com/news/why-we-are-teaching-science-wrong-and-how-to-make-it-right-1.17963). You must submit these questions during the lecture/discussion. _These questions will be graded for participation only and not for correctness of the response._
-- **Weekly (P)review quiz (6 points max each week)**: Online quizzes review the week’s material and preview some upcoming examples each week. Each weekly review quiz will be worth 6 points. You can submit your answers to each quiz as many times as you like. The latest submission before 11pm on Monday will count towards your engagement score. **Review quizzes will be graded for correctness.** _The review quiz must be completed independently and individually. You may refer to your class notes and resources linked from this website, but not to other references. You may not share information about the review quiz with others, take the review quiz in someone else’s name, or ask anyone for prior knowledge about the review quiz._
+- **In class participation via Gradescope quizzes (6 points max each week)**: In Weeks 1 through 5, you will earn credit for attending and participating in lecture (2 points ; you automatically get 2 points for the first lecture) and discussion section (1 point each; the discussion in Week 2 would worth 2 points). Lecture/Discussion participation will be recorded via Gradescope quizzes that you will fill out during lecture/discussion. **Only valid submissions made before the end of each lecture/discussion will count towards your engagement.** _These Gradescope quizzes will be graded for engagement only and not for correctness of the response._
+- **Weekly (P)review quiz (6 points max each week)**: Online quizzes review the week’s material and preview some upcoming examples each week. Each weekly review quiz will be worth 6 points. You can submit your answers to each quiz as many times as you like. The latest submission before 11pm on Sunday will count towards your engagement score. **Review quizzes will be graded for correctness: we will use the score of your last submission to a review quiz before the deadline as your grade for that review quiz.** _The review quiz must be completed independently and individually. You may refer to your class notes and resources linked from this website. You may ask the staff in office hours for help with related concepts, but not the specific questions. You may not share information about the review quiz with others, take the review quiz in someone else’s name, or ask anyone for prior knowledge about the review quiz._
 
-We encourage you to find your preferred method for staying engaged with the course. There are lots of ways to earn full credit for a week’s engagement. For example: (1) attending all lectures and discussion sections;  (2) answering all questions on the review quiz correctly; or (3) attending two lectures and getting two points on the review quiz; etc. If you decide to complete review quizzes on top of attending all lectures and discussions, you will get extra credit for your course grade.
+We encourage you to find your preferred method for staying engaged with the course. There are lots of ways to earn full credit for a week’s engagement. For example: (1) attending all lectures and discussion sections;  (2) answering all questions on the review quiz correctly; or (3) attending two lectures and getting two points on the review quiz; etc. **If you decide to complete review quizzes on top of attending all lectures and discussions, you will get extra credit for your course grade.**
 
 
 ## Programming Assignments (PAs)
@@ -290,8 +290,8 @@ There are two types of assignments in this course, **open** and **closed**:
   of your file, the penalty will range from a point deduction to an academic
   integrity violation, depending on the severity. Always cite your work!
 
-  Note: collaboration does not mean turning in the same file. Collaboration is
-  different than partners or pair programming. You must still do your own work.
+  **Note: collaboration does not mean turning in the same file. Collaboration is
+  different than partners or pair programming. You must still do your own work.**
 
 - **Closed** assignments, where you cannot collaborate with others. The closed 
 assignments serve as programming assessments (exams). You cannot ask 
@@ -317,8 +317,7 @@ You should be familiar with [the UCSD guidelines](http://senate.ucsd.edu/Operati
 on academic integrity as well.
 
 Do not post your PA solutions publicly on any site, including Github. If you fork the Github starter code repos
-and upload your code to the repo, you are required to make the repo private. It is an academic integrity
-violation to publicly post your code. This remains true even after the course is over. If you with to 
+and upload your code to the repo, you are required to make the repo private. **It is an academic integrity violation to publicly post your code.** This remains true even after the course is over. If you with to 
 share the code wish an employer in the future, upload the code to Google Drive or Dropbox and share
 the link to the folder.
 
@@ -326,8 +325,8 @@ the link to the folder.
 
 There will be three **quizzes** during the quarter, in FAH 1450 (same as lecture room):
 - Week 2 - Friday 7/12/2024, 9am - 10am
-- Week 3 - Wednesday 7/19/2024, 9am - 10am
-- Week 4 - Wednesday 7/26/2024, 9am - 10am
+- Week 3 - Friday 7/19/2024, 9am - 10am
+- Week 4 - Friday 7/26/2024, 9am - 10am
 
 The **final exam** will be:
 - Week 5 - Friday 8/2/2024, 8am - 11am, room will be announced later in the quarter. 
@@ -401,16 +400,16 @@ While generative AI tools may seem intelligent, it is important to recognize tha
 
 **I have other questions about using generative AI in CSE 12.**
 
-We encourage you to ask any questions about our policies publicly on Edstem, or directly to the instructor or the TAs via email or during office hours. Figuring out how to work with generative AI is a new challenge for both students and educators, so we encourage you to have an open discussion about it!
+We encourage you to ask any questions about our policies publicly on Piazza, or directly to the instructor or the TAs via email or during office hours. Figuring out how to work with generative AI is a new challenge for both students and educators, so we encourage you to have an open discussion about it!
 UCSD provides additional resources for students about how to use generative AI in a way that upholds academic integrity.
-UCSD Academic Integrity Office: [https://academicintegrity.ucsd.edu/faq/index.html](https://academicintegrity.ucsd.edu/faq/index.html)
-UCSD Library: [https://ucsd.libguides.com/c.php?g=1322935](https://ucsd.libguides.com/c.php?g=1322935)
+- UCSD Academic Integrity Office: [https://academicintegrity.ucsd.edu/faq/index.html](https://academicintegrity.ucsd.edu/faq/index.html)
+- UCSD Library: [https://ucsd.libguides.com/c.php?g=1322935](https://ucsd.libguides.com/c.php?g=1322935)
 
 ## Late or Missed Assignments/Exams
-The [Assignments, Exams, and Grading] section details which assignments can be submitted late or missed without penalty. In summary:
-- [Engagement](#engagement) grades can be earned in various ways but no late submissions will be accepted. 
+The [Assignments, Exams, and Grading](#assignments-exams-and-grading) section details which assignments can be submitted late or missed without penalty. In summary:
+- [Engagement](#engagement) grades can be earned in various ways, but no late submissions will be graded. 
 - [Programming Assignments (PAs)](#programming-assignments-pas) can be resubmitted/late until up to one week after the deadline; the last PA must be submitted by the final exam day.
-- [Exams](#exams): Missed quizzes can be "retaken" during the final exam. No exam can be taken late.
+- [Exams](#exams): Missed quizzes can be "retaken" during the final exam. Except for accommodations made in applicable circumstances, no exam can be taken late.
 
 ## Regrades
 
