@@ -16,7 +16,10 @@ Welcome to the page for the first lecture! Each lecture will
 come with a page like this that summarizes
 readings you should complete **beforehand**, any handouts for the day, code examples and notes from the leture, and reminders for upcoming deadlines.
 
-## Session plan: TODO
+## Reading
+None
+
+## Handout
 - 2-3 min: Introduce instructors/staff
 - 2-3 min: Say hi to the people around you
 - 35 min: syllabus
