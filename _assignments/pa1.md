@@ -177,19 +177,17 @@ cover the space of issues, but they help.
 
 ## Running and Reading JUnit Results
 
-To run the tests, you can click the green arrow button in Eclipse with
-`BasketTest.java` open. The left-hand pane will show a tree view of
-which tests succeeded and failed on each Basket implementation. You can click
-on the dropdown arrow next to each Basket name to see which specific tests
-suceeded and failed, and click on the individual tests to see them in the
-source window and see a description of the failures.
-
-(Optional) You can also run the tests from the command line. We have provided a short
+We will run the tests from the command line. We have provided a short
 script, `run-tests.sh`, that you can use to compile and run your program. From
 the base directory of the code, just run
 
 ```
 $ bash run-tests.sh
+```
+
+The output should look like this:
+
+```
 JUnit version 4.12
 .E............
 Time: 0.018
