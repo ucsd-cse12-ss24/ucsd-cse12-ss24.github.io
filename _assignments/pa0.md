@@ -34,8 +34,7 @@ The [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemNam
 
 ## Getting the Code
 
-The starter code can be found at the following GitHub repository **(link to be released)**.
-<!-- [Github repository](https://github.com/ucsd-cse12-sp24/cse12-pa0-starter){:target="_blank"}.  -->
+The starter code can be found at the following[Github repository](https://github.com/ucsd-cse12-ss24/cse12-pa0-starter){:target="_blank"}.
 If you are not familiar with Github, here are two easy ways to get your code.
 
 - *Download as a ZIP folder.* After going to the Github repository, you should see a green button that says *Code*. Click on that button. Then click on *Download ZIP*. This should download all the files as a ZIP folder. You can then unzip/extract the zip bundle and move it to wherever you would like to work.
