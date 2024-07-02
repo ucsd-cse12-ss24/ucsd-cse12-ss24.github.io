@@ -22,7 +22,7 @@ The main reasons to come see the staff in CSE12 is:
 There are various ways to get general help: in person (in offices and in the labs) and remotely.
 
 
-## Student Help Hours (with tutors)
+## Student Help Hours (with tutors/TA)
 We should make a distinction that when we say "Student Help Hours", we are referring to times 
 that you may meet with tutors and TAs to receive help. Office hours to meet with the instructor
 are a different option, and are explained later on this page. 
@@ -66,11 +66,11 @@ looks like this:
 You don't have to go to the labs just for help – you're also welcome just to go
 there to work any time!
 
-### Instructor Office Hours
+### Instructor/TA Office Hours
 
 “Office hours” should maybe be called “student hours” – they are times where
 we are available in our office (physically or virtually) **for you**. You can
-come to instructor office hours with any kind of questions about the course, or
+come to instructor or TA office hours with any kind of questions about the course, or
 even about the next course, or about catching up if you feel you've fallen
 behind, or something you wanted to know more about from lecture, or if you need some life advice, or to simply introduce yourself and catch up. 
 You can also ask me programming questions in office hours, just like you would in
@@ -80,5 +80,11 @@ Instructor for this course:
 - Ruanqianqian (Lisa) Huang
   - Email: `r6huang+cse12@ucsd.edu`
   - **Office hours**: check course calendar below for time and location
+
+TA for this course:
+- Rachel Lim
+  - Email: `ral077@ucsd.edu`
+  - **Office hours**: check course calendar below for time and location
+
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_64b1974a2a824ac05a1c5cbb3b68bdd16c2c55f37d76102e784ffb0b9ef08d4b%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
