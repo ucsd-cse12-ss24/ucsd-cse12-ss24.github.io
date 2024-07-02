@@ -176,19 +176,35 @@ cover the space of issues, but they help.
 - Focusing on potential off-by-one errors with the first and last items in a
   basket
 
+
 ## Running and Reading JUnit Results
 
-We will run the tests from the command line. We have provided a short
+Running tests can be done in 3 ways:
+
+1. To run each individual test: You can click the green play button next to each test you write in BasketTest.java (to run all Basket implementations for that specific test). The terminal output will show which baskets failed for that particular test, and which passed.
+   
+   <img width="578" alt="run-individual-test" src="images/run-individual-test.png">
+
+3. Run individual/all tests through the Testing Panel in VSCode. On the left hand side, go to the testing panel, where you can see all the tests you wrote in the explorer. You then have multiple options:
+   * **Run all tests for all baskets:** Click on the Play buttton on top of the explorer
+     
+     <img width="578" alt="all-tests-all-baskets" src="images/run-all-tests.png">
+
+   * **Run one test for all baskets:** Click on the play button next to the test you want to run
+     
+     <img width="578" alt="one-test-all-baskets" src="images/one-test-all-baskets.png">
+
+   * **Run one test for one basket:** Click on the play button next to the basket and test you want to run
+     
+     <img width="578" alt="one-test-one-basket" src="images/one-test-one-basket.png">
+
+
+4. (Optional) You can also run the tests from the command line. We have provided a short
 script, `run-tests.sh`, that you can use to compile and run your program. From
 the base directory of the code, just run
 
 ```
 $ bash run-tests.sh
-```
-
-The output should look like this:
-
-```
 JUnit version 4.12
 .E............
 Time: 0.018
@@ -211,6 +227,7 @@ is that there should have at most one `Basket` implementation that succeeds on
 all the tests you wrote.
 
 Hint: One `Basket` might not necessarily be that buggy. This means it will pass all of your tests. HOWEVER, it is possible to have all `Basket` implementations fail tests. 
+
 
 ## Part 2: Gradescope Assignment (7 points)
 
