@@ -2,3 +2,4 @@ _site
 *.class
 ~*
 *.swp
+_lectures/_dev/
