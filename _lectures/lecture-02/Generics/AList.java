@@ -20,7 +20,7 @@ public class AList<E> implements List<E> {
 
   public E get(int index) {
     // Check for out-of-bounds
-    if (index >= this.size)
+    if (index >= this.size || index < 0)
       throw new IndexOutOfBoundsException("list index out of bounds");
     return this.elements[index];
   }
