@@ -101,8 +101,7 @@ they differ.
 
 ## Getting the Code
 
-<!-- The starter code available on Github at [https://github.com/ucsd-cse12-f23/cse12-pa1-Testing](https://github.com/ucsd-cse12-f23/cse12-pa1-Testing){:target="_blank"} **TODO**.  -->
-The starter code available on Github at **link to be released**. 
+The starter code available on Github at [https://github.com/ucsd-cse12-ss24/cse12-pa1-Testing](https://github.com/ucsd-cse12-ss24/cse12-pa1-Testing){:target="_blank"}
 If you are not familiar with Github, here are two easy ways to get your code.
 
 1. Download as a ZIP folder 
