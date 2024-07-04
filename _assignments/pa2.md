@@ -26,25 +26,7 @@ future PAs that might take more time than the earlier ones.*
 
 ## Getting the Code
 
-You can download the starter code at [https://github.com/ucsd-cse12-sp24/cse12-pa2-Lists](https://github.com/ucsd-cse12-sp24/cse12-pa2-Lists).
-If you are not familiar with Github, here are two easy ways to get your code.
-
-1. Download as a ZIP folder 
-
-    After going to the Github repository, you should see a green button that 
-    says *Code*. Click on that button. Then click on *Download ZIP*. This should
-    download all the files as a ZIP folder. You can then unzip/extract the zip 
-    bundle and move it to wherever you would like to work.
-
-2. Using git clone (requires terminal/command line)
-
-    After going to the Github repository, you should see a green button that 
-    says *Code*. Click on that button. Select *HTTPS* and copy the link. In terminal/command 
-    line, navigate to whatever folder/directory you would like to work. Type the
-    command `git clone _` where the `_` is replaced with the link you copied. 
-    This should clone the repository on your computer and you can then edit the 
-    files on whatever IDE you see fit.
-    
+You can download the starter code at [https://github.com/ucsd-cse12-sp24/cse12-pa2-Lists](https://github.com/ucsd-cse12-ss24/cse12-pa2-Lists).
 
 If you are unsure or have questions about how to get the starter code, feel free
 to make a Piazza post or ask a tutor for help.
