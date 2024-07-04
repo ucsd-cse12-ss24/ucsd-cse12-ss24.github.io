@@ -1,9 +1,11 @@
+```
 ---
 layout: with-sidebar
 index: 3
 name: PA2
 released-on: "2024-07-05"
 ---
+```
 
 # CSE 12 Programming Assignment 2
 
