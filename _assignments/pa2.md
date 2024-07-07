@@ -13,7 +13,7 @@ released-on: "2024-07-05"
 
 You should finish reading the whole writeup before you start to code. 
 
-This assignment will exercise your understanding of array and linked lists.
+This assignment will exercise your understanding of arrays and linked lists.
 
 This PA is due on ** **Wednesday, July 10 at 11pm** **
 
@@ -96,11 +96,11 @@ should create a new Linked Integer list with contents `{1, 2, 3}`.
 
 #### `public E[] toArray()`
 
-Returns the contents of the list as a new array, with *shallow copy* of the 
+Returns the contents of the list as a new array, with a *shallow copy* of the 
 elements in the same order they appear in the list. The length of the array 
 produced must be the same as the size of the list. To notice, you cannot 
 initialize a generic array, like `E[] array = new E[];`. **Hint**: consider 
-typecaste or check out lecture materials. 
+typecasting or check out lecture materials. 
 
 #### `public boolean isEmpty()`
 
@@ -114,9 +114,9 @@ how to implement `MyTransformer` in part 2.) It has a method called
 `transformElement(E e)`, which takes an element as an argument and returns the 
 transformed element. Therefore, you should apply 
 `transformElement` method of `mt` class to each element in the list, getting
-the transformed element and replacing the orginal one.
+the transformed element and replacing the original one.
 For example, consider the provided `UpperCaseTransformer` that 
-implements `MyChooser`, which transforms a string into uppercase. If we 
+implements `MyTransformer`, which transforms a string into uppercase. If we 
 construct a list like:
 
 ```
@@ -200,15 +200,17 @@ class UpperCaseTransformer implements MyTransformer<String> {
 }
 ```
 
-"Choosers" should overwrite `public boolean chooseElement(E e)` of `MyChooser`.
-When you put a "chooser" into `chooseAll(MyChooser mc)`'s paramter, like 
-`agl.chooseAll(new LongWordChooser())`, you can access`chooseElement` method by
-`mc.chooseElement(element)`. Similarly, "transformers" should overwrite 
-`E transformElement(E e)`and you can access `transformElement` by 
+"Choosers" in `Choosers.java` should overwrite the `public boolean chooseElement(E e)` method in `MyChooser.java`.   
+Then, when you put a "chooser" object into `chooseAll(MyChooser mc)`'s parameter, like 
+`agl.chooseAll(new LongWordChooser())`, you will be able to access your `chooseElement` method implementation by doing
+`mc.chooseElement(element)`.   
+
+Similarly, "transformers" in `transformers.java` should overwrite the `E transformElement(E e)` method in `MyTransformer.java`.  
+Then, when you put a "transformer" object into `transformAll(MyTransformer mt)`, you will be able to access your `transformElement` method implementation by doing
 `mt.transformElement(element)`.
 
-**Note**: you should not use `toLowerCase()` in `Transformers.java` and >, <, 
-or = in `Choosers.java `
+**Note**: you should not use `toLowerCase()` in `Transformers.java` and `>`, `<`, 
+or `=` in `Choosers.java `
 
 ## Getting Started
 
@@ -242,7 +244,7 @@ This clearly returns the wrong value, but it will allow you to compile the files
 After doing this, you can start working on the individual methods. You may
 want to start with implementing the methods for `ArrayGL`, since the constructor is already provided. 
 
-Run the tests as you go. Even if you hanve't finished implementing other methods, as long as the files compiles, you can test for the method you're currently working on. 
+Run the tests as you go. Even if you haven't finished implementing other methods, as long as the files compile, you can test for the method you're currently working on. 
 
 As you get more comfortable with the PA, move back and
 forth between the implementations as you see fit to make progress.
@@ -251,11 +253,11 @@ forth between the implementations as you see fit to make progress.
 ## Testing
 
 The thoroughness and correctness of your tests will be graded automatically. 
-Correctnes will be assessed by running your tests against our reference 
+Correctness will be assessed by running your tests against our reference 
 implementation and checking if the results are as expected.
 Thoroughness will be assessed by running your
-tests against each buggy implementation and checking if the results are
-different than on the reference implementation.
+tests against each buggy implementation and by checking if the results are
+different than the reference implementation.
 
 You will be able to see the correctness assessment in Gradescope to confirm
 that your tests match our expected behavior. 
@@ -278,10 +280,10 @@ you will have to think of some of your own test cases. This list is simply a
 guide to help you implement your own. 
 
 
-| Test Cases   | Description | Points |
-|--------------|-------------|--------|
-| chaff implementations |The following are examples of bad implementations where your tests will be expected to catch the bugs, look at the names to help get an idea of what the bug could be. For tricker bugs, further explanations are given. <br/>chaffAlwaysChoosesFirstArrayGL<br/>&nbsp;&nbsp;- in ArrayGL, chooseAll() always chooses the first element<br/>chaffIsEmptyReturnsTrueIfSizeGreaterThan0ArrayGL<br/>chaffReturnNewArrayArrayGL<br/>&nbsp;&nbsp;- in ArrayGL, toArray() does not create a new array<br/>chaffIsEmptyReturnsFalseSizeGreaterThan3<br/>chaffChooseAllFailsIfLastNotChosenLinkedGL<br/>&nbsp;&nbsp;- in LinkedGL, chooseAll() will cause an exception if the last node is not chosen<br/>chaffDoWhileToArrayLinkedGL<br/>&nbsp;&nbsp;- in LinkedGL, a do-while loop is used in toArray()<br/>chaffDoWhileTransformArrayGL<br/>chaffFixedSizeConstructorLinkedGL<br/>chaffIncorrectTransformBoundsLinkedGL<br/>&nbsp;&nbsp;- in LinkedGL, transformAll() does not loop through the entire list<br/>chaffIncludeNullToArrayArrayGL<br/>&nbsp;&nbsp;- in ArrayGL, extra nulls are being copied to the end of the new array | 10 |
-| wheat implementation | `TestLists.java` will be used against a correct implementation. This will check if the tests written are correct and do not flag any errors for the wheat implementation. | 5 |
+| Test Cases | Description | Points |
+|------------|-------------|--------|
+| Chaff implementations | The following are examples of bad implementations where your tests will be expected to catch the bugs, look at the names to help get an idea of what the bug could be. For tricker bugs, further explanations are given. <br/>`chaffAlwaysChoosesFirstArrayGL`<br/>&nbsp;&nbsp;- in ArrayGL, `chooseAll()` always chooses the first element<br/>`chaffIsEmptyReturnsTrueIfSizeGreaterThan0ArrayGL`<br/>`chaffReturnNewArrayArrayGL`<br/>&nbsp;&nbsp;- in ArrayGL, `toArray()` does not create a new array<br/>`chaffIsEmptyReturnsFalseSizeGreaterThan3`<br/>`chaffChooseAllFailsIfLastNotChosenLinkedGL`<br/>&nbsp;&nbsp;- in LinkedGL, `chooseAll()` will cause an exception if the last node is not chosen<br/>`chaffDoWhileToArrayLinkedGL`<br/>&nbsp;&nbsp;- in LinkedGL, a do-while loop is used in `toArray()`<br/>`chaffDoWhileTransformArrayGL`<br/>`chaffFixedSizeConstructorLinkedGL`<br/>`chaffIncorrectTransformBoundsLinkedGL`<br/>&nbsp;&nbsp;- in LinkedGL, `transformAll()` does not loop through the entire list<br/>`chaffIncludeNullToArrayArrayGL`<br/>&nbsp;&nbsp;- in ArrayGL, extra nulls are being copied to the end of the new array | 10 |
+| Wheat implementation | `TestLists.java` will be used against a correct implementation. This will check if the tests written are correct and do not flag any errors for the wheat implementation. | 5 |
 | Constructor | Correctly populates the instance variables for the object. <br/> &nbsp;&nbsp;- Pass an empty array<br/>&nbsp;&nbsp;- Pass an array with multiple values | 3 |
 | isEmpty |  Correctly checks to see if the ArrayGL/LinkedGL is empty. <br/>&nbsp;&nbsp;- The list is empty, returns True<br/>&nbsp;&nbsp;- the list is not empty with multiple values, returns False<br/>&nbsp;&nbsp;- the list is not empty with only one value, returns False | 6 (3 for ArrayGL, 3 for LinkedGL)|
 | toArray |  Correctly returns an array of the values that were in the ArrayGL/LinkedGL. <br/>&nbsp;&nbsp;- the list is empty<br/>&nbsp;&nbsp;- the list has a large size<br/>&nbsp;&nbsp;- creates a new array to return | 6 (3 for ArrayGL, 3 for LinkedGL)|
@@ -316,33 +318,33 @@ You are free to use all of the following resources:
 - Code from this PA writeup
 - Code from lecture
 - Code from discussion
-- Code posted on the course web site and linked resources
+- Code posted on the course website and linked resources
 - Code from your past PAs
 - Code that was public on Piazza before the PA was released
 - Code or ideas from the official Java documentation
 
-We encourage you to make heavy use of these resources! Much of these are linked
+We encourage you to make heavy use of these resources! Many of these are linked
 from the schedule on the course web page.
 
 ## Answers for FAQ
 
-1. Even though we only offer Choosers/Transformers examples of String, your implementation of transformerAll/chooseAll can transform/choose any object types, including String, Integer, or your own object class. Therefore, you should consider write your own Choosers and Transformers of multiple object types and test them. For example, consider such a transformer: class IntegerTransformer implements MyTransformer<Integer>.
-2. When you apply Choosers of String to an Integer list, there will be a java.lang.ClassCastException (you should try it). However, you do not need to worry about how to handle the error. When we are testing, we will apply the correct type. 
-3. We don't test null input in LinkedGL's or ArrayGL's constructors. 
-4. It's ok to have warnings. 
-5. In the writeup, it says "you should not use <, ==, or > in Choosers.java" and toLowerCase in Transformers.java because if those are allowed, students can just copy the code from LongWordChooser and UpperCaseTransformer and change < into == or > and toUpperCase into toLowerCase, which does not count as "create your own choosers and transformers." Therefore, if you want to use <, ==, > or toLowerCase, make sure you are not just taking a shortcut. 
-6. Magic numbers are allowed in your Choosers.java and Transformers.java source files since the sample ones contain them.
-7. We don't test null inputs to chooseAll/transformAll.
-8. You may write JUnit tests that test your own choosers and transformers.
-9. About toArray, return a "new" array which contains the shallow copy(reference) of each element. 
-10. Null element does not count as empty. For example, if I create a list with {null, null, "A"}, its size should be 3 instead of 1. 
-11. You are not allowed to use system calls to copy array. You should copy an array though a loop. 
-12. chaffFixedSizeConstructorLinkedGL() is an implementation whose constructor has a fixed maximum size. Meaning if the content's length is larger than this fixed size, it won't populate the list with all of the contents.
-13. You can use Arrays class in your tests
+1. Even though we only offer Choosers/Transformers examples of String, your implementation of `transformerAll`/`chooseAll` can transform/choose any object types, including String, Integer, or your own object class. Therefore, you should consider writing your own Choosers and Transformers of multiple object types and test them. For example, consider such a transformer: `class IntegerTransformer implements MyTransformer<Integer>`.   
+2. When you apply Choosers of String to an Integer list, there will be a `java.lang.ClassCastException` (you should try it). However, you do not need to worry about how to handle the error. When we are testing, we will apply the correct type.  
+3. We don't test null input in LinkedGL's or ArrayGL's constructors.   
+4. It's ok to have warnings.   
+5. In the writeup, it says "you should not use `<`, `==`, or `>` in Choosers.java" and `toLowerCase` in Transformers.java because if those are allowed, students can just copy the code from `LongWordChooser` and `UpperCaseTransformer` and change `<` into `==` or `>` and `toUpperCase` into `toLowerCase`, which **does not count as "create your own choosers and transformers."** Therefore, if you want to use `<`, `==`, `>` or `toLowerCase`, make sure you are not just taking a shortcut.   
+6. Magic numbers are allowed in your Choosers.java and Transformers.java source files since the sample ones contain them.   
+7. We don't test null inputs to `chooseAll`/`transformAll`.   
+8. You may write JUnit tests that test your own choosers and transformers.   
+9. About `toArray`, return a "new" array which contains the shallow copy (reference) of each element.    
+10. Null element does not count as empty. For example, if I create a list with `{null, null, "A"}`, its size should be 3 instead of 1.    
+11. You are not allowed to use system calls to copy the array. You should copy an array through a loop.    
+12. `chaffFixedSizeConstructorLinkedGL()` is an implementation whose constructor has a fixed maximum size. Meaning if the content's length is larger than this fixed size, it won't populate the list with all of the contents.   
+13. You can use Arrays class in your tests.   
 
 ## Asking for Help
 
-Feel free to ask the staff about anything from lecture. For this PA, you may
+Feel free to ask the staff about anything from the lecture. For this PA, you may
 find it especially helpful to go over the worksheets and code from the lecture
 on Array Lists and Linked Lists. The staff will may also provide guidance and clarification on this PA.
 
@@ -376,7 +378,7 @@ Checklist:
 ## Submitting
 
 ### Part 1 & 2
-On the Gradescope assignment **Programming Assignment 2 - code** please submit 
+On the Gradescope assignment **Programming Assignment 2 - code.** Please submit 
 the following files:
 
     * ArrayGL.java
@@ -424,6 +426,6 @@ agl.transformAll(s -> s.toUpperCase());
 
 This doesn't require writing the `UpperCaseTransformer` class at all!
 
-Lambda expressions were added in Java version 8, and allow for us to write
+Lambda expressions were added in Java version 8, and allow us to write
 methods and classes in the concise style shown above if we design with
 functional interfaces in mind.
