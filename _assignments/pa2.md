@@ -9,7 +9,7 @@ released-on: "2024-07-05"
 
 ### Lists
 
-**This assignment is open to collaboration.**
+**This assignment is CLOSED to collaboration.**
 
 You should finish reading the whole writeup before you start to code. 
 
