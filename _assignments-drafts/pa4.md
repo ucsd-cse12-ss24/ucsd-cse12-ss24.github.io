@@ -111,8 +111,6 @@ This portion will be submitted via Gradescope. It can be found in the *Programmi
 
 
 
-The starter code can be found from: [https://github.com/ucsd-cse12-sp24/cse12-pa5-Partition](https://github.com/ucsd-cse12-sp24/cse12-pa5-Partition). If you are not familiar with Github, here are two easy ways to get your code.
-
 
 ## Part 2 (Sorting): A Bad (and Good) Implementation Detector
 
@@ -120,6 +118,9 @@ This part of the assignment will teach you how to write tests in a thorough, aut
 
 *This part of the assignment is inspired by [an assignment from Brown University's
 CS019](https://cs.brown.edu/courses/cs019/2016/sortaclesortacle.html).*
+
+The starter code for part 2 can be found from: [https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition](https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition).
+
 
 ### Testing with Properties
 
