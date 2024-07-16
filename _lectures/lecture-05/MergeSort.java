@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MergeSort {
 
   public static String s(int[] arr) { return Arrays.toString(arr); }
