@@ -388,7 +388,17 @@ On the Gradescope assignment **Programming Assignment 4 - code** please submit t
         
 You may encounter errors if you submit extra files or directories. You may submit as many times as you like till the deadline. 
 
-## Scoring (36 points total)
+## Grade Breakdown
+
+Note that this assignment has a lot of manual grading, so there’s less value in submitting after the deadline.
+
+#### Part 1 (52 points total)
+
+- 12 points: initial big-O justifications [manually graded]
+- 40 points: stack and queue method analysis [manually graded]
+- 0 points: Who you collaborated with for both Part 1 and Part 2. Provide this in your `Programming Assignment 4 - questions` submission.
+
+#### Part 2 (36 points total)
 
 - 10 points: `isValidPartitionResult`, graded automatically
 - 5 points: `generateInput`, graded automatically
