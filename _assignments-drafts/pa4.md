@@ -114,51 +114,51 @@ This portion will be submitted via Gradescope. It can be found in the *Programmi
 
 ## Part 2 (Sorting): A Bad (and Good) Implementation Detector
 
-This part of the assignment will teach you how to write tests in a thorough, automated way, will explore some properties of quicksort, and will give you structured practice in re-using code you find on the Web.
+In this part of the assignment, you will:
+- Learn how to write tests in a thorough, automated way.
+- Explore some properties of Quicksort.
+- Obtain a structured practice in re-using the code you find online.
 
 *This part of the assignment is inspired by [an assignment from Brown University's
 CS019](https://cs.brown.edu/courses/cs019/2016/sortaclesortacle.html).*
 
-The starter code for part 2 can be found from: [https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition](https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition).
+The starter code for part 2 can be found at: [https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition](https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition).
 
 
 ### Testing with Properties
 
-So far in this class, we have usually written tests by following this process:
+So far in this class, we have written tests by following this process:
+1. Construct the input data.
+2. Perform an operation.
+3. Check that the resulting data equals some expected value.
 
-1. Construct the input data
-2. Perform an operation
-3. Check that the resulting data is equal to some expected value
+This process works well for writing a small or medium number of targeted tests for
+particularly interesting cases. However, checking specific output values isn't necessarily the best way to test an implementation. In fact, sometimes this process won't work at all.
 
-This works well for writing a small or medium number of tests targeted at
-particularly interesting cases. Checking specific output values, however, isn't
-the only or necessarily the best way to test and gain confidence in an
-implementation. In fact, sometimes it won't work at all.
-
-Consider the `partition` helper method of quick sort as an interface (here
-we'll restrict it to just partitioning arrays of `String`s):
+Consider Quicksort's `partition` helper method as an interface (we'll restrict it to just partitioning arrays of `String`s):
 
 ```java
 interface Partitioner {
-  // Change strs between start (inclusive) and end (exclusive), such that
-  // all values at indices lower than a pivot index are smaller than or equal
-  // to the value at the pivot, and all values at indices higher than the pivot
-  // are larger than or equal to the value at the pivot
-
+ /* Change strs between start (inclusive) and end (exclusive), such that
+  * 1) all values at indices lower than a pivot index are smaller than or equal
+  * to the value at the pivot, and 2) all values at indices higher than the pivot
+  */ are larger than or equal to the value at the pivot.
   int partition(String[] strs, int start, int end);
 }
 ```
 
-In lecture and discussion, we noted that there are many ways to implement
-`partition`, in particular the choice of the _pivot index_ is important. Not
-only could we choose different pivots, but one choice is to have a _random_
-choice of pivot!  Let's imagine writing a test for a `Partitioner`:
+In class, we learned that there are many ways to implement
+`partition`, and that the choice of the _pivot index_ is very important.   
+Not only could we choose different pivots, but you could choose a _random_ pivot!   
+
+Imagine you're writing a test for a `Partitioner`:
 
 ```java
 class PartitionerFromLecture implements Partitioner {
+
   public int partition(String[] strs, int low, int high) {
     int pivotStartIndex = Random.nextInt(high - low);
-    ... implementation from lecture ...
+    // ... implementation from lecture ... //
   }
 }
 
@@ -174,58 +174,57 @@ public void testPartitionerFromLecture() {
 }
 ```
 
-For two items, there are some clever solutions. You can use [special
-matchers](https://stackoverflow.com/a/19064484/2718315),
-for instance.
+> For two items, there are some clever solutions such as using [special
+> matchers](https://stackoverflow.com/a/19064484/2718315).
 
-Instead of writing out all the tests by hand, we should step back from the
-problem. We really care that the array is _correctly partitioned_ – there
-shouldn't be elements larger than the pivot value at earlier indices, or
-elements smaller than the pivot value at later indices. There are other
-properties, too, like all the elements that were in the input list should
-appear the same number of times in the output list – if `partition` duplicates
-or loses elements, it isn't doing its job!
+Then, instead of writing out all the tests by hand, we should step back from the
+problem.  
+We really care that the array is _correctly partitioned_ – there
+shouldn't be 1) elements larger than the pivot value at earlier indices, or 2)
+elements smaller than the pivot value at later indices.   
+There are other properties, too, such as 3) all the elements that were in the input list should
+appear the same number of times in the output list (if `partition` duplicates
+or loses elements, it isn't doing its job!)
 
-So, instead of writing single tests, we should write methods that, given a
+Therefore, instead of writing single tests, we should write methods that, given a
 partition algorithm, check if it satisfies some desired _properties_ that
-partitioning ought to. Properties sufficient to show a valid partitioning are:
+partitioning ought to.   
 
-- All the elements in the original array are present in the array _after_ we
-  call partition
+### Properties sufficient to show a valid partitioning are:
+
+- All the elements in the original array are still present in the array _after_ we
+  call partition.
 - No values at indices other than those from `low` (inclusive) to `high`
-  (exclusive) changed their values
-- The elements from `low` to `high` are correctly partitioned:
+  (exclusive) changed their values.
+- The elements from `low` to `high` are correctly partitioned, meaning:
   - `partition` returns some _pivot index_ between `low` (inclusive) and `high`
     (exclusive)
-  - At all indices from `low` up to the pivot index the string is smaller
-    than or equal to (according to `compareTo`) the value at the pivot index
-  - At all indices from the pivot index up to `high - 1`, the string is larger
-    than or equal to (according to `compareTo`) the value at the pivot index
+  - At all indices, from `low` up to the pivot index, the string is smaller
+    than or equal to the value at the pivot index (according to `compareTo`).
+  - At all indices, from the pivot index up to `high - 1`, the string is larger
+    than or equal to the value at the pivot index (according to `compareTo`).
 
-### Your Task
+## Your Task For Part 2
 
-You will turn the properties above into code that checks if a given result from
-partition is valid.  That means your program will decide, for any call to
-`partition`, if it behaves as we'd expect. Further, we can extend this idea to
-build a method that takes a `Partitioner` and returns `null` if we believe it
-to be a good partitioner, and a `CounterExample` if we can find an input array
-and low/high bounds that partition incorrectly:
+You will turn the properties above into code that **checks whether a given result from
+`partition` is valid**. Meaning that your program should decide, on any call to `partition`, whether the implementation behaves as we'd expect.   
+Further, we can extend this idea to build a method `findCounterExample` that takes a `Partitioner` and returns `null` if we believe it to be a good partitioner, or a `CounterExample` object if we can find an input array and some low/high bounds that partition incorrectly. See below for more details:
 
 ```java
 CounterExample findCounterExample(Partitioner p);
 ```
 
-`CounterExample` is defined to contain:
+`CounterExample` is an object defined to contain:
 
 - The _input_ to a call to partition (an array, a low index, and a high index)
 - The _result_ of a call to partition (an array and a returned pivot index)
-- A `reason`, as a `String`, that you choose in order to describe why it is
+- A `String` variable named `reason` that you choose to describe why it is
   invalid. Some suggestions are below.
 
 You will write a version of `CounterExample` and use it to check multiple
-different partition implementations, some good and some bad. Note that, even
-beyond the argument above about randomness, there are _multiple possible
-correct implementations of partition_.
+different partition implementations, some good and some bad.   
+> Note that, even beyond the argument above about randomness, there are _multiple possible
+> correct implementations of partition_.
 
 You must implement two methods to help you implement `CounterExample`; you can implement other helpers as
 you see fit. The two methods you must implement are:
