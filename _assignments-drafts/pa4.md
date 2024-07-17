@@ -135,7 +135,7 @@ So far in this class, we have written tests by following this process:
 This process works well for writing a small or medium number of targeted tests for
 particularly interesting cases. However, checking specific output values isn't necessarily the best way to test an implementation. In fact, sometimes this process won't work at all.
 
-Consider Quicksort's `partition` helper method as an interface (we'll restrict it to just partitioning arrays of `String`s):
+Consider the `partition` helper method of Quicksort as an interface (we'll restrict it to just partitioning arrays of `String`s):
 
 ```java
 interface Partitioner {
@@ -148,8 +148,7 @@ interface Partitioner {
 ```
 
 In class, we learned that there are many ways to implement
-`partition`, and that the choice of the _pivot index_ is very important.   
-Not only could we choose different pivots, but you could choose a _random_ pivot!   
+`partition`, and that the choice of the _pivot index_ is very important. Not only could we choose different pivots, but you could choose a _random_ pivot!   
 
 Imagine you're writing a test for a `Partitioner`:
 
@@ -174,17 +173,16 @@ public void testPartitionerFromLecture() {
 }
 ```
 
-> For two items, there are some clever solutions such as using [special
-> matchers](https://stackoverflow.com/a/19064484/2718315).
+For two items, there are some clever solutions such as using [special matchers](https://stackoverflow.com/a/19064484/2718315).
 
 Then, instead of writing out all the tests by hand, we should step back from the
 problem.  
-We really care that the array is _correctly partitioned_ – there
+We care that the array is _correctly partitioned_. In other words, there
 shouldn't be 1) elements larger than the pivot value at earlier indices, or 2)
 elements smaller than the pivot value at later indices.   
 There are other properties, too, such as 3) all the elements that were in the input list should
 appear the same number of times in the output list (if `partition` duplicates
-or loses elements, it isn't doing its job!)
+or loses elements, it isn't doing its job!).
 
 Therefore, instead of writing single tests, we should write methods that, given a
 partition algorithm, check if it satisfies some desired _properties_ that
@@ -201,7 +199,7 @@ partitioning ought to.
     (exclusive)
   - At all indices, from `low` up to the pivot index, the string is smaller
     than or equal to the value at the pivot index (according to `compareTo`).
-  - At all indices, from the pivot index up to `high - 1`, the string is larger
+  - At all indices, from the pivot index up to `(high - 1)`, the string is larger
     than or equal to the value at the pivot index (according to `compareTo`).
 
 ## Your Task For Part 2
@@ -253,7 +251,7 @@ String isValidPartitionResult(String[] before, int low, int high, int pivot, Str
 String[] generateInput(int n);
 ```
 
-`generateInput()` should create a list of items to use as input to purported
+Where `generateInput()` creates a list of items to use as input to purported
 partition algorithms. It's up to you how it generates the items so long it produces an array of length `n`.
 
 ### An Overall Strategy
@@ -339,7 +337,11 @@ sorting and manipulating lists, like boundary cases, duplicates, ordering,
 length, base cases, and comparisons, as a few examples.
 
 ### What to do about `null`?
-**Assume** that there are **no `null`** items in the arrays, that sorts won't put `null` items in the arrays, and that the variables holding lists of items won't contain `null`. There are plenty of interesting behaviors to consider without it!
+You can **Assume** that:
+- There are **no `null`** items in the arrays.
+- That sorts won't put `null` items in the arrays.
+- That the variables holding lists of items won't contain `null`.
+There are plenty of interesting behaviors to consider without it!
 
 **Don't** have your implementation of `findCounterExample` take more than a few
 seconds per sorting implementation. You don't need to create million-element
@@ -395,8 +397,7 @@ Note that this assignment has a lot of manual grading, so there’s less value i
 
 - 10 points: `isValidPartitionResult()`, graded automatically
 - 5 points: `generateInput()`, graded automatically
-- 11 points: `findCounterExample()`, graded automatically by how it performs on good and bad
-  partitions that we provide.
+- 11 points: `findCounterExample()`, graded automatically by how it performs on the good and bad partitions that we provide.
 
 
 
