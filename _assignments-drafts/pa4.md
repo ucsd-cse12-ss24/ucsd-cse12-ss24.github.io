@@ -362,17 +362,7 @@ You may submit as many times as you like till the deadline.
 - The `Programming Assignment 4 - questions` assignment in Gradescope, where you will submit the written part of this PA.
     - The first question is your big-O justifications.
   - The second question is for your List analysis.
-  - The third question is for your matchings for the mystery functions, along with your graphs and justifications. The following are what needs to be answered in the subquestions.
-      - The BigO bounds for each implementation f1-6.
-    - A listing that matches each of mysteryA-F to an implementation f1-6 above 
-    - Three graphs that justify a few choices above. These don't need to
-      exhaustively describe all of your matchings, but they must be generated
-      from real data that you measured using `measure`, and they must show an
-      interesting relationship that helps justify the matching. 
   - The last section gives you a space to indicate who you collaborated with (if you collaborated with anyone).
-
-If you want a guide on how to get from the CSV data to a graph, look here:
-[https://docs.google.com/document/d/1efFyv4QmggBMxrphb5gF40i5_wBUfIeUMw9-Abrs0fY/edit?usp=sharing](https://docs.google.com/document/d/1efFyv4QmggBMxrphb5gF40i5_wBUfIeUMw9-Abrs0fY/edit?usp=sharing)
 
 #### Part 2
 
@@ -390,7 +380,7 @@ Note that this assignment has a lot of manual grading, so there’s less value i
 #### Part 1 (52 points total)
 
 - 12 points: initial big-O justifications [manually graded]
-- 40 points: stack and queue method analysis [manually graded]
+- 40 points: list method analysis [manually graded]
 - 0 points: Who you collaborated with for both Part 1 and Part 2. Provide this in your `Programming Assignment 4 - questions` submission.
 
 #### Part 2 (36 points total)
