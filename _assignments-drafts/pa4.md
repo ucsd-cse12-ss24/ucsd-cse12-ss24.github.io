@@ -360,7 +360,7 @@ On this PA, we will not give deductions for violating standard style guidelines 
 You may submit as many times as you like till the deadline.
 
 - The `Programming Assignment 4 - questions` assignment in Gradescope, where you will submit the written part of this PA.
-    - The first question is your big-O justifications.
+  - The first question is your big-O justifications.
   - The second question is for your List analysis.
   - The last section gives you a space to indicate who you collaborated with (if you collaborated with anyone).
 
