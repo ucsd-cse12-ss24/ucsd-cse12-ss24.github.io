@@ -377,13 +377,13 @@ You may encounter errors if you submit extra files or directories. You may submi
 
 Note that this assignment has a lot of manual grading, so there’s less value in submitting after the deadline.
 
-#### Part 1 (52 points total)
+#### Part 1 (28 points total)
 
 - 12 points: initial big-O justifications [manually graded]
-- 40 points: list method analysis [manually graded]
+- 16 points: list method analysis [manually graded]
 - 0 points: Who you collaborated with for both Part 1 and Part 2. Provide this in your `Programming Assignment 4 - questions` submission.
 
-#### Part 2 (36 points total)
+#### Part 2 (26 points total)
 
 - 10 points: `isValidPartitionResult()`, graded automatically
 - 5 points: `generateInput()`, graded automatically
