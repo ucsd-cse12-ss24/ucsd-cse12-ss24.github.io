@@ -22,6 +22,42 @@ public class ArrayStringList implements StringList {
 	  this.elements[this.size] = s;
 	  this.size += 1;
   }
+
+  public void remove(int index) {
+    // TODO: assumes index in bound; 
+    // should throw an exception when removing from an empty list
+   
+    // shifts elements forward
+    for(int i = index; i < this.size - 1; i++){
+      this.elements[i] = this.elements[i + 1];
+    }
+	  
+    // if removing from a full list,
+    // ensure the last element is null
+    this.elements[this.size - 1] = null;
+    this.size -= 1;
+  }
+
+  
+  // Assumes a valid index is given
+  public void insert(int index, String s){
+    expandCapacity();
+	  
+    // shifts elements backward
+    for(int i = this.size; i > index; i--){
+      this.elements[i] = this.elements[i - 1];
+    }
+    
+    this.elements[index] = s;
+    this.size += 1;
+
+  }
+  
+  //Just call insert at index 0!
+  public void prepend(String s){
+	  this.insert(0, s);
+	  return;
+  }
   
   public String get(int index) {
 	  return this.elements[index];
