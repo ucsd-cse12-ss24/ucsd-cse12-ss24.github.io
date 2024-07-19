@@ -122,7 +122,7 @@ In this part of the assignment, you will:
 *This part of the assignment is inspired by [an assignment from Brown University's
 CS019](https://cs.brown.edu/courses/cs019/2016/sortaclesortacle.html).*
 
-The starter code for part 2 can be found at: [https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition](https://github.com/ucsd-cse12-ss24/cse12-pa5-pt2-Partition).
+The starter code for part 2 can be found at: [https://github.com/ucsd-cse12-ss24/cse12-pa4-pt2-Partition](https://github.com/ucsd-cse12-ss24/cse12-pa4-pt2-Partition).
 
 
 ### Testing with Properties
